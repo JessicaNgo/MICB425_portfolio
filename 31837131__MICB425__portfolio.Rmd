@@ -1,0 +1,10 @@
+---
+title: "MICB425 portfolio"
+author: "Jessica Ngo (31837131)"
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+
+```{r child = "DS_assignment3_jessicango.Rmd"}
+
+```
