@@ -23,7 +23,7 @@ ggplot(metadata, aes(x=Temperature_F, y=Depth_m)) + geom_point()
 ## @knitr exercise3
 physeq_percent = transform_sample_counts(physeq, function(x) 100 * x/sum(x))
 plot_bar(physeq_percent, fill="Class") +
-  geom_bar(aes(fill=Phylum), stat="identity") +
+  geom_bar(aes(fill=Class), stat="identity") +
   labs(x="Sample depth", 
        y="Percent relative abundance")
 
