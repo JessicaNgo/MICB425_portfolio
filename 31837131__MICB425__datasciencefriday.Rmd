@@ -1,0 +1,25 @@
+---
+title: "MICB425 portfolio - Data science Friday"
+author: "Jessica Ngo (31837131)"
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+
+```{r child = "DS_assignment3_jessicango.Rmd"}
+
+```
+
+# Assignment 4
+```{r echo=FALSE}
+read_chunk('DS_assignment4_jessicango.R')
+```
+```{r setup}
+```
+```{r exercise1}
+```
+```{r exercise2}
+```
+```{r exercise3, fig.width=10, fig.height=10}
+```
+```{r exercise4}
+```
