@@ -2,13 +2,16 @@
 title: "Evidence_worksheet_02"
 author: "Student Name (Student ID)"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    theme: unified
 ---
-### Evidence Worksheet_02 “Life and the Evolution of Earth’s Atmosphere”
-#### Learning objectives: 
+## Evidence Worksheet_02 Life and the Evolution of Earth's Atmosphere
+### Learning Objectives 
 Comment on the emergence of microbial life and the evolution of Earth systems
     
-    
+### General Questions    
 * Indicate the key events in the evolution of Earth systems at each approximate moment in the time series. If times need to be adjusted or added to the timeline to fully account for the development of Earth systems, please do so. 
 
     + 4.6 billion years ago  

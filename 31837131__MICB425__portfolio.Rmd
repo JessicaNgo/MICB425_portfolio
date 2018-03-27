@@ -2,9 +2,47 @@
 title: "MICB425 portfolio"
 author: "Jessica Ngo (31837131)"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    theme: united
 ---
+# Evidence worksheets
 
-```{r child = "DS_assignment3_jessicango.Rmd"}
+```{r child = "evidencePS/Evidence_worksheet_01.Rmd"}
+
+```
+
+```{r child = "evidencePS/Evidence_worksheet_02.Rmd"}
+
+```
+
+```{r child = "evidencePS/Evidence_worksheet_03.Rmd"}
+
+```
+
+```{r child = "evidencePS/Evidence_worksheet_04.Rmd"}
+
+```
+
+```{r child = "evidencePS/Evidence_worksheet_05.Rmd"}
+
+```
+
+# Problem sets
+
+```{r child = "evidencePS/Problem_set_01.Rmd"}
+
+```
+
+```{r child = "evidencePS/Problem_set_02.Rmd"}
+
+```
+
+```{r child = "evidencePS/Problem_set_03.Rmd"}
+
+```
+
+```{r child = "evidencePS/Problem_set_04.Rmd"}
 
 ```

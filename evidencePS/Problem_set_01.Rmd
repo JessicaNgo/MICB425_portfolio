@@ -1,6 +1,6 @@
 ---
 title: "Problem set 01"
-author: "Student Name (Student ID)"
+author: "Jessica Ngo (31837131)"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
 ---
@@ -10,27 +10,66 @@ Describe the numerical abundance of microbial life in relation to the ecology an
 
 #### Specific Questions:
 * What are the primary prokaryotic habitats on Earth and how do they vary with respect to their capacity to support life? Provide a breakdown of total cell abundance for each primary habitat from the tables provided in the text.  
+    * soil, seawater, & sediment/soil subsurface
+    * in short: capacity for life: subsurface >>> aquatic > soil
+        * subsurface (>10cm marins, >8m terrestrial): total = 3.8*10^30 cells
+        * aquatic: 1.18*10^29 cells
+            * freshwater: 1.31*10^26 cells
+            * saline lakes: 1.0*10^26 cells
+            * marine: 1.18*10^29 cells
+        * soil: 2.56*10^29 cells
 
 * What is the estimated prokaryotic cell abundance in the upper 200 m of the ocean and what fraction of this biomass is represented by marine cyanobacterium including Prochlorococcus? What is the significance of this ratio with respect to carbon cycling in the ocean and the atmospheric composition of the Earth?  
+    * in the upper 200m of the ocean, estimated to be 360*10^26 cells, from average density of 5*10^5 cells/mL
+    * marine cyanobacterium density = 4*10^4 cells/mL
+    * the ratio of these two numbers of marine cyanobacterium to estimated prokaryotic cell abundance in the upper 200m is 0.08, or 8%. ie. 8*% of all prokaryotic ce4lls in the upper 200m of the ocean are marine cyanobacterium
+    * 8% is a considerable amount, meaning that a significan portion of the upper oceanic microbes that photosynthesize - fixing carbon, and likely make up a large portion of oceanic C fixation, which convert CO2 from atmosphere to organic carbon, which can also be used to support other microbes/life
+        * from this carbon, also contributes to the high turnover rates seen
 
 * What is the difference between an autotroph, heterotroph, and a lithotroph based on information provided in the text?  
 
+    * autotroph: provides own organic molecules by fixing CO2
+    * heterotroph: need to get organic molecules from environment
+    * lithotroph: do not need organic molecules; can use inorganic sources for energy
+  
+
 * Based on information provided in the text and your knowledge of geography what is the deepest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this depth?  
 
-* Based on information provided in the text your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?  
+    * according to text, ~4km, since temperature reaches 125 degrees, which is close to upper temp. for prokaryotic life 
+        * primary limiting factor for life is temp
+    * however, mariannas trench is 11km deep - could be life here?
 
-* Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth’s biosphere measured in km?  
+* Based on information provided in the text your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?
+    * 57-77km - highest altitude range where microbes found
+    * primary limiting factor is carbon, becomes more sparse as altitude increases
 
+* Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth's biosphere measured in km?  
+    * given range of -4km(according to text) to 57-77km (highest altitude range according to text)
+    * from this, this would give us a vertical distance of 61-88km
+  
 * How was annual cellular production of prokaryotes described in Table 7 column four determined? (Provide an example of the calculation)
-
+    * divide population by turnover time and convert to years
+eg. for marine autotrophs: 
 ```{r}
-37+90
-```  
+((2.9*10^27)/1.5)*365
+```
 
 * What is the relationship between carbon content, carbon assimilation efficiency and turnover rates in the upper 200m of the ocean? Why does this vary with depth in the ocean and between terrestrial and marine habitats?  
+    * higher C assimilation --> higher turnover
+        * this is more carbon available due to assimilation, means more carbon available for growth
+    * with depth in the ocean
+        * increasing depth usually means less carbon assimilation, less carbon available, therefore lower turnover rates (ie. energy through photosynthesis)
+        * nutrient availability
+        * also temperature can affect metabolism
+    * between terrestrial and marine habitats - easier to get nutrients in marine habitat since its in solution, movement of nutrients and more microbes = more nutrients which supports more microbes... 
 
 * How were the frequency numbers for four simultaneous mutations in shared genes determined for marine heterotrophs and marine autotrophs given an average mutation rate of 4 x 10-7 per DNA replication? (Provide an example of the calculation with units. Hint: cell and generation cancel out)  
-
+    * (4e-7)^4 * 3.6e28cells/16days * 1day/24hours = 2.4/hour of 4 simultaneous mutations in shared genes
+    
 * Given the large population size and high mutation rate of prokaryotic cells, what are the implications with respect to genetic diversity and adaptive potential? Are point mutations the only way in which microbial genomes diversify and adapt?  
-
+    * HUGE genetic diversity & adaptive potential
+    * besides point mutations, there are also indels, inversions, duplications and transpositions for mutational changes
+    * on top of this, they also have horizontal gene transfer (HGT) through conjugation or viral infection
+    
 * What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text?  
+    * positive correlation between abundance, diversity, and metabolic potential
