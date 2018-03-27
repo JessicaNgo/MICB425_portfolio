@@ -2,7 +2,10 @@
 title: "MICB425 portfolio - Data science Friday"
 author: "Jessica Ngo (31837131)"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    theme: united
 ---
 
 ```{r child = "DS_assignment3_jessicango.Rmd"}

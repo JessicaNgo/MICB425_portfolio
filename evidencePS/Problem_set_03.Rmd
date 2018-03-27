@@ -1,0 +1,25 @@
+---
+title: "Problem Set_03"
+author: "Student Name (Student ID)"
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+### Problem set_03 “Metagenomics: Genomic Analysis of Microbial Communities”
+#### Learning objectives: 
+Specific emphasis should be placed on the process used to find the answer. Be as comprehensive as possible e.g. provide URLs for web sources, literature citations, etc.  
+*(Reminders for how to format links, etc in RMarkdown are in the RMarkdown Cheat Sheets)*
+
+#### Specific Questions:
+* How many prokaryotic divisions have been described and how many have no cultured representatives (microbial dark matter)?
+  
+
+* How many metagenome sequencing projects are currently available in the public domain and what types of environments are they sourced from?
+  
+
+* What types of on-line resources are available for warehousing and/or analyzing environmental sequence information (provide names, URLS and applications)?  
+
+* What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis?   
+
+* What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms?  
+
+* Is there an alternative to metagenomic shotgun sequencing that can be used to access the metabolic potential of uncultivated microorganisms? What are some risks and opportunities associated with this alternative?  

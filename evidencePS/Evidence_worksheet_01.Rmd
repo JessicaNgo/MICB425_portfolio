@@ -1,0 +1,41 @@
+---
+title: "Evidence_worksheet_01"
+author: "Student Name"
+student number: "enter_student_ID"
+date: ""
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Evidence Worksheet for "Prokaryotes: The Unseen Majority"
+
+
+### Learning Objectives
+Describe the numerical abundance of microbial life in relation to ecology and biogeochemistry of Earth systems.
+
+
+### General Questions
+#### What were the main questions being asked?
+
+
+
+#### What were the primary methodological approaches used?
+
+
+
+#### Summarize the main results or findings. 
+
+
+
+#### Do new questions arise from the results?
+
+
+
+#### Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
+
+
+

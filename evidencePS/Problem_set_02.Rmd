@@ -1,0 +1,23 @@
+---
+title: "Problem Set_02"
+author: "Student Name (Student ID)"
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+### Problem set_02 “Microbial Engines”
+#### Learning objectives: 
+Discuss the role of microbial diversity and formation of coupled metabolism in driving global biogeochemical cycles.
+
+#### Specific Questions:
+* What are the primary geophysical and biogeochemical processes that create and sustain conditions for life on Earth? How do abiotic versus biotic processes vary with respect to matter and energy transformation and how are they interconnected?  
+
+* Why is Earth’s redox state considered an emergent property?
+  
+
+* How do reversible electron transfer reactions give rise to element and nutrient cycles at different ecological scales? What strategies do microbes use to overcome thermodynamic barriers to reversible electron flow?  
+
+* Using information provided in the text, describe how the nitrogen cycle partitions between different redox “niches” and microbial groups. Is there a relationship between the nitrogen cycle and climate change?   
+
+* What is the relationship between microbial diversity and metabolic diversity and how does this relate to the discovery of new protein families from microbial community genomes?  
+
+* On what basis do the authors consider microbes the guardians of metabolism?  

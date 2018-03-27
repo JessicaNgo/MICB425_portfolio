@@ -1,0 +1,50 @@
+---
+title: "Evidence_worksheet_02"
+author: "Student Name (Student ID)"
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+### Evidence Worksheet_02 “Life and the Evolution of Earth’s Atmosphere”
+#### Learning objectives: 
+Comment on the emergence of microbial life and the evolution of Earth systems
+    
+    
+* Indicate the key events in the evolution of Earth systems at each approximate moment in the time series. If times need to be adjusted or added to the timeline to fully account for the development of Earth systems, please do so. 
+
+    + 4.6 billion years ago  
+    
+    + 4.2 billion years ago  
+    
+    + 3.8 billion years ago  
+    
+    + 3.75 billion years ago  
+    
+    + 3.5 billion years ago  
+    
+    + 3.0 billion years ago  
+    
+    + 2.7 billion years ago  
+    
+    + 2.2 billion years ago  
+    
+    + 2.1 billion years ago
+    
+    + 1.3 billion years ago
+    
+    + 550,000 years ago
+    
+    + 200,000 years ago
+
+
+* Describe the dominant physical and chemical characteristics of Earth systems at the following waypoints:  
+
+    + Hadean  
+    
+    + Archean  
+    
+    + Precambrian  
+    
+    + Proterozoic  
+    
+    + Phanerozoic  
+    

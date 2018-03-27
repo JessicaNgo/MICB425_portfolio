@@ -1,0 +1,180 @@
+---
+title: "Problem Set_04"
+author: "Student Name (Student ID)"
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+### Problem set_04 “Fine-scale phylogenetic architecture”
+#### Learning objectives: 
+
+* Gain experience estimating diversity within a hypothetical microbial community
+
+
+#### Outline:
+
+In class Day 1:
+
+1. Define and describe species within your group's "microbial" community.
+2. Count and record individuals within your defined species groups.
+3. Remix all species together to reform the original community.
+4. Each person in your group takes a random sample of the community (*i.e.* devide up the candy).
+
+Assignment:
+
+5. Individually, complete a collection curve for your sample.
+6. Calculate alpha-diversity based on your original total community and your individual sample.
+
+In class Day 2:
+
+7. Compare diversity between groups.
+
+#### Part 1: Description and enumeration
+Obtain a collection of "microbial" cells from "seawater". The cells were concentrated from different depth intervals by a marine microbiologist travelling along the Line-P transect in the northeast subarctic Pacific Ocean off the coast of Vancouver Island British Columbia. 
+
+Sort out and identify different microbial "species" based on shared properties or traits. Record your data in this Rmarkdown using the example data as a guide.
+
+Once you have defined your binning criteria, separate the cells using the sampling bags provided. These operational taxonomic units (OTUs) will be considered separate "species". This problem set is based on content available at [What is Biodiversity](http://cnx.org/content/m12179/latest/).
+
+For example, load in the packages you will use.
+```{r message=FALSE}
+#To make tables
+library(kableExtra)
+library(knitr)
+#To manipulate and plot data
+library(tidyverse)
+```
+
+Then load in the data. You should use a similar format to record your community data.
+```{r}
+example_data1 = data.frame(
+  number = c(1,2,3),
+  name = c("lion", "tiger", "bear"),
+  characteristics = c("brown cat", "striped cat", "not a cat"),
+  occurences = c(2, 4, 1)
+)
+```
+
+Finally, use these data to create a table.
+```{r}
+example_data1 %>% 
+  kable("html") %>%
+  kable_styling(bootstrap_options = "striped", font_size = 10, full_width = F)
+```
+	
+For your community:
+
+* Construct a table listing each species, its distinguishing characteristics, the name you have given it, and the number of occurrences of the species in the collection.
+* Ask yourself if your collection of microbial cells from seawater represents the actual diversity of microorganisms inhabiting waters along the Line-P transect. Were the majority of different species sampled or were many missed? 
+ 
+#### Part 2: Collector's curve
+To help answer the questions raised in Part 1, you will conduct a simple but informative analysis that is a standard practice in biodiversity surveys. This analysis involves constructing a collector's curve that plots the cumulative number of species observed along the y-axis and the cumulative number of individuals classified along the x-axis. This curve is an increasing function with a slope that will decrease as more individuals are classified and as fewer species remain to be identified. If sampling stops while the curve is still rapidly increasing then this indicates that sampling is incomplete and many species remain undetected. Alternatively, if the slope of the curve reaches zero (flattens out), sampling is likely more than adequate.
+
+To construct the curve for your samples, choose a cell within the collection at random. This will be your first data point, such that X = 1 and Y = 1. Next, move consistently in any direction to a new cell and record whether it is different from the first. In this step X = 2, but Y may remain 1 or change to 2 if the individual represents a new species. Repeat this process until you have proceeded through all cells in your collection.
+
+For example, we load in these data.
+```{r}
+example_data2 = data.frame(
+  x = c(1,2,3,4,5,6,7,8,9,10),
+  y = c(1,2,3,4,4,5,5,5,6,6)
+)
+```
+
+And then create a plot. We will use a scatterplot (geom_point) to plot the raw data and then add a smoother to see the overall trend of the data.
+```{r}
+ggplot(example_data2, aes(x=x, y=y)) +
+  geom_point() +
+  geom_smooth() +
+  labs(x="Cumulative number of individuals classified", y="Cumulative number of species observed")
+```
+
+For your sample:
+
+* Create a collector's curve for your sample (not the entire original community).
+* Does the curve flatten out? If so, after how many individual cells have been collected?
+* What can you conclude from the shape of your collector's curve as to your depth of sampling?
+
+#### Part 3: Diversity estimates (alpha diversity)
+Using the table from Part 1, calculate species diversity using the following indices or metrics.
+
+##### Diversity: Simpson Reciprocal Index
+
+$\frac{1}{D}$ where $D = \sum p_i^2$
+
+$p_i$ = the fractional abundance of the $i^{th}$ species
+
+For example, using the example data 1 with 3 species with 2, 4, and 1 individuals each, D =
+
+```{r}
+species1 = 2/(2+4+1)
+species2 = 4/(2+4+1)
+species3 = 1/(2+4+1)
+
+1 / (species1^2 + species2^2 + species3^2)
+```
+
+The higher the value is, the greater the diversity. The maximum value is the number of species in the sample, which occurs when all species contain an equal number of individuals. Because the index reflects the number of species present (richness) and the relative proportions of each species with a community (evenness), this metric is a diveristy metric. Consider that a community can have the same number of species (equal richness) but manifest a skewed distribution in the proportion of each species (unequal evenness), which would result in different diveristy values.
+
+* What is the Simpson Reciprocal Index for your sample?
+* What is the Simpson Reciprocal Index for your original total community?
+
+##### Richness: Chao1 richness estimator
+Another way to calculate diversity is to estimate the number of species that are present in a sample based on the empirical data to give an upper boundary of the richness of a sample. Here, we use the Chao1 richness estimator. 
+
+$S_{chao1} = S_{obs} + \frac{a^2}{2b})$
+
+$S_{obs}$ = total number of species observed
+a = species observed once
+b = species observed twice or more
+
+So for our previous example community of 3 species with 2, 4, and 1 individuals each, $S_{chao1}$ =
+
+```{r}
+3 + 1^2/(2*2)
+```
+
+* What is the chao1 estimate for your sample?
+* What is the chao1 estimate for your original total community?
+
+#### Part 4: Alpha-diversity functions in R
+We've been doing the above calculations by hand, which is a very good exercise to aid in understanding the math behind these estimates. Not surprisingly, these same calculations can be done with R functions. Since we just have a species table, we will use the `vegan` package. You will need to install this package if you have not done so previously. 
+
+```{r message=FALSE}
+library(vegan)
+```
+
+First, we must remove the unnecesary data columns and transpose the data so that `vegan` reads it as a species table with species as columns and rows as samples (of which you only have 1).
+```{r}
+example_data1_diversity = 
+  example_data1 %>% 
+  select(name, occurences) %>% 
+  spread(name, occurences)
+
+example_data1_diversity
+```
+
+Then we can calculate the Simpson Reciprocal Index using the `diversity` function.
+```{r}
+diversity(example_data1_diversity, index="invsimpson")
+```
+
+And we can calculate the Chao1 richness estimator (and others by default) with the the `specpool` function for extrapolated species richness. This function rounds to the nearest whole number so the value will be slightly different that what you've calculated above.
+```{r}
+specpool(example_data1_diversity)
+```
+
+In Project 1, you will also see functions for calculating alpha-diversity in the `phyloseq` package since we will be working with data in that form.
+
+For your sample:
+
+* What are the Simpson Reciprocal Indices for your sample and community using the R function?
+* What are the chao1 estimates for your sample and community using the R function?
+    + Verify that these values match your previous calculations.
+
+#### Part 5: Concluding activity
+If you are stuck on some of these final questions, reading the [Kunin et al. 2010](https://www.ncbi.nlm.nih.gov/pubmed/19725865) and [Lundin et al. 2012](https://www.ncbi.nlm.nih.gov/pubmed/23760801) papers may provide helpful insights. 
+
+* How does the measure of diversity depend on the definition of species in your samples?
+* Can you think of alternative ways to cluster or bin your data that might change the observed number of species?
+* How might different sequencing technologies influence observed diversity in a sample?
