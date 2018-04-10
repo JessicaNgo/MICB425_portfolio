@@ -28,7 +28,8 @@ physeq_percent = transform_sample_counts(physeq, function(x) 100 * x/sum(x))
 plot_bar(physeq_percent, fill="Class") +
   geom_bar(aes(fill=Class), stat="identity") +
   labs(x="Sample depth", 
-       y="Percent relative abundance")
+       y="Percent relative abundance",
+       title="Classes from 10m to 200m in Saanich Inlet")
 # ----
 
 ## @knitr exercise4

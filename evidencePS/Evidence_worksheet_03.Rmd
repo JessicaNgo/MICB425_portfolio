@@ -8,50 +8,29 @@ output:
   html_document: default
 ---
 
-## Evidence Worksheet for "Prokaryotes: The Unseen Majority"
+## Evidence Worksheet 3 for "The Anthropocene"
 
 
 ### Learning Objectives
-Describe the numerical abundance of microbial life in relation to ecology and biogeochemistry of Earth systems.
-
+Evaluate human impacts on the ecology and biogeochemistry of Earth systems.
 
 ### General Questions
 #### What were the main questions being asked?
-How many microbes are there? Where are these microbes habituated? How much carbon to they amass too?
 
 
 #### What were the primary methodological approaches used?
-* Extrapolation of microbial counts in "representative" samples of specific habitats (from other studies/research... some are unpublished?)
 
-* * from this, they use estimation of total # of microbes to arithmetically estimate the amount of carbon, also using a representative estimated weight/cell and carbon/cell
-
-* original methodology for countin microbes assumed to be direct microscopic counts, measures of turbidity orciable counts
-
-* * nextgen sequencing not a thing yet when this paper was published
 
 
 
 #### Summarize the main results or findings. 
 
-* estimated 4-6*10^6 prokaryotic cells contributing to 350-550Pg of C - HUGE portion of Earth's carbon
-
-* distribution of microbes:
-** subsurface >> soil > aquatic >>>>>>> air, animal, other habitats
-
-* huge store of nutrients - 10 fold more P and N than plants
-
 
 
 #### Do new questions arise from the results?
 
-* How have these numbers change if the study were repeated today? What about with new, different methods, ie. nextgen sequencing? Are the results still the same?
 
 
 #### Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
 
-* Where did these numbers come from? What studies did they get these numbers from? How did they get data from unpublished studies that are never referenced?
-
-* If they explained their numbers/calculations/assumptions, that would have been a lot more helpful, rather than the reader guessing/trying to figure it out themselves
-
-* Figures/tables were useful, especially for summarizing numbers across habitats and drawing comparisons
 

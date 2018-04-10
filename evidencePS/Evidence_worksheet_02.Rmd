@@ -15,39 +15,55 @@ Comment on the emergence of microbial life and the evolution of Earth systems
 * Indicate the key events in the evolution of Earth systems at each approximate moment in the time series. If times need to be adjusted or added to the timeline to fully account for the development of Earth systems, please do so. 
 
     + 4.6 billion years ago  
+        * solar system begins with one or more local supernova explosions
+        * 4.5Ga possible collision leading to moon and seasons/tides
     
     + 4.2 billion years ago  
-    
-    + 3.8 billion years ago  
-    
+        * point at which earth could have permanent habituation (or even 4.0ga or less)
+    + 3.8 billion years ago
+        * until now, earth is constantly bombareded so that all H20 is vapourized or temperature is >110 degrees C 
     + 3.75 billion years ago  
-    
+        * evidence from Isua belt, oldest rocks, evidence of oceans and banded conformations indicating anoxygenic photosynthesis which implies considerable speciation - oldest probable life!
+        * however dating is controversial and carbonate is not necssarily the age of the host rock
     + 3.5 billion years ago  
-    
+        * rubisco signature implies global oxygenic photosynthesis and evolution of cyanobacteria
+        * confirmed life exists for at least this long
     + 3.0 billion years ago  
-    
+        * geologic evidence for archaea, stromatolites
     + 2.7 billion years ago  
-    
+        * well developed stromatolites found in many places
+        * ancestral eukaryotes appear to predate 2.7Ga
+        * hydrocarbon biomarkers found, including 2-alpha-methylhopanes are characteristic of cyanobacteria, implying oxygenic photosynthesis is occuring
     + 2.2 billion years ago  
-    
+         * redbeds do not exist before this point - suggests oxidizing conditions after this time
+         * sharp spike in oxygen level, and possibly the appearance of complex eukaryotes
     + 2.1 billion years ago
-    
+        * switch from a microaerobic early atmosphere to a oxis air at this point
     + 1.3 billion years ago
-    
+        * multicellular life, first multicellular organisms!
     + 550,000 years ago
-    
+        * cambrian explosion!! life expansion pack!
     + 200,000 years ago
-
+        * plants and animal on land
 
 * Describe the dominant physical and chemical characteristics of Earth systems at the following waypoints:  
 
     + Hadean  
+        * hot, external CO2 and vapourized H2O
+        * cold glacial temperatures when not bombarded (due to young sun)
+        * water hydrolyzes to H2 and O2 and H2 escapes
     
     + Archean  
-    
+        * rich in phosphate
+        * warmth and UV protection
+        * subaerial and subaqueous hydrothermal vents rich in metals 
+        * sulphur cycle (modern or not?)
     + Precambrian  
-    
+        * same as above
     + Proterozoic  
-    
+        * oxygen rapidly increasin, therefore [CH4] in atmosphere decreasing - get glaciation, becomes very cold
+        * CO2 also likely decreasing due to photosynthetic microbes
     + Phanerozoic  
-    
+        * ~22% O2 due to photosynthesis (plants + bacteria)
+        * relatively less CO2 than before on a large time scale3
+        * N aroudn the same through this point

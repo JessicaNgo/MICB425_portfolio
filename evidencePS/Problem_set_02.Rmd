@@ -10,14 +10,44 @@ Discuss the role of microbial diversity and formation of coupled metabolism in d
 
 #### Specific Questions:
 * What are the primary geophysical and biogeochemical processes that create and sustain conditions for life on Earth? How do abiotic versus biotic processes vary with respect to matter and energy transformation and how are they interconnected?  
+1. geophysical (mainly acid/base rxns)
+    * tectonics resupply C, S, P
+    * geothermal processes resuply C, S and metals
+2. biochemical (biologically driven)
+    * mainly redox reactions
+    * photosynthesis drives oxidation of electron donors (requires energy in the form of light rather than through bond energy)
+    * respiration drives reduction of electron donors
+    * forms a cycle, although not perfect, resupplemented by geophysical processes
 
-* Why is Earth’s redox state considered an emergent property?
-  
+* Why is Earth's redox state considered an emergent property?
+    * originally earth's chemistry was mainly acid/base and not redox, due to abiotic processes, but with the emergence and addition of microbes, this lead to increase in a redox state world-wide, since microbes increase both oxidized and reduced forms of metabolites
 
 * How do reversible electron transfer reactions give rise to element and nutrient cycles at different ecological scales? What strategies do microbes use to overcome thermodynamic barriers to reversible electron flow?  
+    * reversibility allows both oxidation and reduction 
+    * eg. inorganic C + energy <-> organic C 
+        * therefore, in areas or niches where inorganic C and energy is available, this can be reduced into organic C form through photosynthesis
+        * In areas where organic C is more abundant, this can be oxidized into energy and inorganic C
+    * on a small scale, there is a cycle between photosynthesis and respiration
+    * on a large scale, elements and nutrients are cycled into different forms
+    * thermodynamic barriers are overcome by co-operation or distributed metabolic networks, and using light electrons as reducing power
 
-* Using information provided in the text, describe how the nitrogen cycle partitions between different redox “niches” and microbial groups. Is there a relationship between the nitrogen cycle and climate change?   
-
-* What is the relationship between microbial diversity and metabolic diversity and how does this relate to the discovery of new protein families from microbial community genomes?  
+* Using information provided in the text, describe how the nitrogen cycle partitions between different redox "niches" and microbial groups. Is there a relationship between the nitrogen cycle and climate change?   
+    * N2 -> NH4+ (fixation)
+        * group of bacteria that reduces/fixes N2 to NH4+, uses nitrogenase
+    * NH4+ -> NO2 (nitrification, also fixes CO2 to CH2O) 
+        * group of bacteria/archaea that oxidizes NH4+ to NO2, and consumes oxygen in the process
+    * NO2 -> NO3 (nitrification)
+        * group of bacteria that oxidizes NO2 to NO3, requires oxygen as well, not in competition with previous group due to different electron donor 
+    * No3 -> N2 (denitrification)
+        * reduces NO3 to N2 again through anaerobic oxidation of organic matter
+    * in regards to climate change, the burning of fossil fuels, increase of nitrogen fertilizers, etc, have increased the amoun of N in the cycle which leads to an increased accumulation of NH4+, which means increased acidity, and leads to NO3 leaching so that this results in dead fish, and animals/insects also die
+  
+* What is the relationship between microbial diversity and metabolic diversity and how does this relate to the discovery of new protein families from microbial community genomes?
+    * metabolic diversity would lead to microbial diversity because different types of metabolism would lead to different niches being occupied, and thus difference microbes would arise as a result
+    * there is some machinery that is highly conservered amonst all groups, which includes basic electron transductin processes, protein translation, DNA replication, etc.
+    * there are also different genes that can lead to increased microbial and metabolic diversity, such as carryon genes and boutique genes (specific to niche)
 
 * On what basis do the authors consider microbes the guardians of metabolism?  
+    * they are ubiquitous and holy the intructions and capacity for metabolism
+    * and in the event of extinction withou complete annihilation they will maintain and guard all the genes and mechanisms necessary for metabolism, and eventually re-establish worldwide
+    * HGT can also help maintain pathways
