@@ -9,7 +9,7 @@ output:
     theme: united
 ---
 
-## Evidence worksheet_04 "Bacterial Rhodopsin Gene Expression""
+## Evidence worksheet_04 "Bacterial Rhodopsin Gene Expression"
 
 
 ### Learning Objectives
