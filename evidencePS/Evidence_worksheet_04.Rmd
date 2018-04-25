@@ -1,11 +1,12 @@
 ---
-title: "Evidence_worksheet_01"
+title: "Evidence_worksheet_04"
 author: "Student Name"
 student number: "31837131"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
-output:
-  word_document: default
-  html_document: default
+output: 
+  html_document:
+    toc: true
+    theme: united
 ---
 
 ## Evidence worksheet_04 "Bacterial Rhodopsin Gene Expression""
@@ -13,23 +14,42 @@ output:
 
 ### Learning Objectives
 Describe the numerical abundance of microbial life in relation to ecology and biogeochemistry of Earth systems.
+
 * Discuss the relationship between microbial community structure and metabolic diversity
 * Evaluate common methods for studying the diversity of microbial communities
 * Recognize basic design elements in metagenomic workflows
 
 ### General Questions
 #### What were the main questions being asked?
-    * 
+
+* what is the physiological basis of light activated grwoth stimulation in photorhodopsin (PR) containin microbes?
+    * what gene(s) encode a PR-based photosystem
+    * what are the full functions and roles of the many microbial marine PRs?
+        * role of light in this? Is an H+ gradient required for ATP synthesis?
+* can they recover a function PR system using functional metagenomic screening?
+* can a single genetic event enable acquisition of phototropic capabilities
 
 #### What were the primary methodological approaches used?
 
+* functional screening on marine picoplankton large-insert genomic library (fosmid)
+* sequencing transposon-insertion clones
 
 #### Summarize the main results or findings. 
+
+* genomic analysis of PR photosystem expressing clones:
+    * both clones derived from alphaprotobacteria
+    * PR genes encode a protein characteristics of blue-light absorbing PRs and orange pigmentation
+    * clones also carry predicted six-gene operon, encoding putative retinal/B-carotene biosynthesis genes
+* genetic and photypic analysis of PR photosystem
+    * PR gene disruption results in no orange pigmentation and questionably low retinol
+* single genetic event can result in acquisition of phototrophic capabilities, which explains ubiquity of PR photosystems amonst microbial taxa
 
 
 
 #### Do new questions arise from the results?
 
+* Although in this case the proteins/metabolites are not toxic, the expression system they used in this study to conduct functional screening would not be effective if the proteins/metabolites are toxic. Thus, are cell-free expression systems the future of functional screening? 
 
 #### Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
 
+* Good background given, because without it I wouldn't have been able to understand this paper 

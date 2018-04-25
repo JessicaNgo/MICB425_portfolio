@@ -1,0 +1,381 @@
+---
+title: "MICB425 Group 1 Project 2"
+author: "Team 1: Albert Chang (), Alison Fong (33399149), Karen Lau (16524143), Yaqian
+  Luo (59751503), Jessica Ngo (31837131), Peter (Kiet) Truong (36645133)"
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+    toc_float:
+      collapsed: no
+---
+
+### Project_2  
+
+####Abstract  
+
+Genes encoding key steps in the nitrogen cycle are well defined and provide a basis for functional anchor screening to determine their distribution across prokaryotic taxa. In this study, Saanich Inlet was used as a model ecosystem to investigate the metabolic coupling and symbiotic interactions that influence the nitrogen cycle in oxygen minimum zones. Water samples were collected at seven major depths spanning the oxycline, and genomic DNA and RNA were extracted and sequenced. The resulting reads were processed, assembled, and analyzed using the Tree-based Sensitive and Accurate Protein Profiler (TreeSAPP) pipeline to reconstruct the nitrogen cycle along defined redox gradients in Saanich Inlet. The *narG* gene was then investigated in detail. Its DNA levels were found to increase with depth while RNA levels decreased with depth. Proteobacteria contributed most *narG* DNA, while Actinobacteria contributed most RNA. Further, *narG* RNA abundance increased along with nitrite concentrations in the Inlet, but had the opposite relationship with nitrate concentrations; this was the expected result given that *narG* mediates the conversion of nitrate to nitrite. Overall, *narG* is responsible for a conversion taking place the beginning of the nitrogen cycle, and this provides reasoning for its presence at the given depths, while providing a key piece to exemplify evolutionary and environmental reasoning for the distributed metabolism seen in the nitrogen cycle.
+
+####Introduction  
+
+Oxygen minimum zones (OMZs) are regions in the ocean where dissolved oxygen concentrations fall below 20 $\mu$M (1). Due to global temperature increases and other effects caused by climate change, OMZs are increasing at a significant rate. Saanich Inlet is a seasonally anoxic fjord off the coast of British Columbia and a model ecosystem for studying the diversity and biochemical responses of microbial communities to the hypoxic environments commonly observed in OMZs (1, 2). In particular, Saanich Inlet has been used to model the metabolic coupling and symbiotic interactions that occur in OMZs (3).  The inlet undergoes recurring cycles of water column stratification and deep water renewal, making it a useful model for studying microbial responses to changes in oceanic oxygenation levels (4). Increased levels of primary productivity in ocean surfaces during the spring season, along with the limited mixing which occurs between the basin and surface waters, both result in the development of an anoxic body of water with increasing depth in the Inlet (2). These anoxic regions become highly populated with chemolithoautotrophs, eventually leading to a decrease in aerobically respiring organisms found deeper within these zones. Past studies have shown that these types of metabolic shifts usually lead to a loss of nitrogen along with the production of notable greenhouse gases such as methane (CH~4~) and nitrous oxide (N~2~O) (1). Some species have also been shown to engage in sulfide (H~2~S) oxidation and nitrate (NO~3~^-^) reduction pathways within these zones (5). 
+
+The nitrogen cycle--the biogeochemical cycle by which nitrogenous compounds are interconverted between chemical forms for environmental circulation--consists mainly of nitrogen fixation, nitrification and denitrification, and has been catalyzed by microorganisms long before the appearance of humans (6). Even today, much of it is still dictated by the diverse microbial niches present in the surrounding environment. An example of this control can be seen in denitrification--the conversion of NO~3~^-^ to nitrogen gas (N~2~)--carried out by denitrifying bacteria. Denitrication is a highly important process as it prevents the accumulation of nitrogen compounds to toxic levels that could lead to eutrophication, and maintains the homeostasis of nitrogen distribution between soil and atmosphere. Having an atmospheric residence time of approximately 1 billion years, nitrogen gas (N~2~) is highly inert and is not accessible for the synthesis of proteins and nucleic acids, though this problem is easily solved by the conversion of N~2~ to NH~4~^+^ through nitrogen fixation (6).  
+
+Recent literature has highlighted that microbial taxa do not necessarily integrate whole elemental cycles into their individual metabolic pathways, but often divide these reactions among the community so that consortia of taxa must rely on each other to fulfill their metabolic requirements (2). The aim of this project was to characterize the involvement of our gene of interest, *narG*, which is known for its role in the reduction of NO~3~^-^ to NO~2~^-^, in the denitrification cycle. 
+  
+
+####Methods  
+Water samples were collected from Saanich Inlet at depths 10, 100, 120, 135, 150, 165, and 200m spanning the oxycline during Saanich Inlet Cruise 72. The samples were subsequently filtered through a 0.22 $\mu$m Sterivex filter to collect biomass and both genomic DNA and RNA were extracted from these samples. The extracted RNA was converted into cDNA. Both total genomic DNA and cDNA were used to construct the shotgun Illumina libraries. Sequencing data were generated on the Illumina HiSeq platform with 2x150bp technology. Further sampling and sequencing details can be found in *A compendium of multi-omic sequence information from the Saanich Inlet water column* by Hawkley et al. (2017).  
+
+The IMG/M pipeline was then used to process the resulting reads. Metapathways 2.5 was used to assemble and process the metagenomes. A beta version of Tree-based Sensitive and Accurate Protein Profiler (TreeSAPP) pipeline was used to reconstruct the nitrogen cycle along defined redox gradients in Saanich Inlet using Google Cloud services. iTOL version 4.0 was used to generate phylogenetic trees based on the processed data. The contig maps were loaded into R version 3.4.3. The Tidyverse, Cowplot and Phyloseq packages were loaded and used to complete the data analysis.  
+
+
+####Results  
+
+#####Environment setup and Data Cleaning  
+```{r echo=FALSE}
+library(tidyverse)
+library(cowplot)
+library(phyloseq)
+```
+
+Loading, parsing (initial data contains data for all genes - we are only interested in *narG*), renaming data.  We only require the taxonomy, abundance, and query data.
+```{r message=FALSE, echo=FALSE}
+narG.DNA.10m = read_tsv("narG/marker_contig/DNA10m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%
+    select(Tax.DNA.10 = Confident_Taxonomy, Abund.DNA.10 = Abundance, Query)
+
+narG.RNA.10m = read_tsv("narG/marker_contig/RNA10m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>% 
+    select(Tax.RNA.10 = Confident_Taxonomy, Abund.RNA.10 = Abundance, Query)
+
+narG.DNA.100m = read_tsv("narG/marker_contig/DNA100m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>% 
+    select(Tax.DNA.100 = Confident_Taxonomy, Abund.DNA.100 = Abundance, Query)
+
+narG.RNA.100m = read_tsv("narG/marker_contig/RNA100m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%  
+    select(Tax.RNA.100 = Confident_Taxonomy, Abund.RNA.100 = Abundance, Query)
+
+narG.DNA.120m = read_tsv("narG/marker_contig/DNA120m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%  
+    select(Tax.DNA.120 = Confident_Taxonomy, Abund.DNA.120 = Abundance, Query)
+
+narG.RNA.120m = read_tsv("narG/marker_contig/RNA120m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%  
+    select(Tax.RNA.120 = Confident_Taxonomy, Abund.RNA.120 = Abundance, Query)
+
+narG.DNA.135m = read_tsv("narG/marker_contig/DNA135m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%  
+    select(Tax.DNA.135 = Confident_Taxonomy, Abund.DNA.135 = Abundance, Query)
+
+narG.RNA.135m = read_tsv("narG/marker_contig/RNA135m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%  
+    select(Tax.RNA.135 = Confident_Taxonomy, Abund.RNA.135 = Abundance, Query)
+
+narG.DNA.150m = read_tsv("narG/marker_contig/DNA150m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%  
+    select(Tax.DNA.150 = Confident_Taxonomy, Abund.DNA.150 = Abundance, Query)
+
+narG.RNA.150m = read_tsv("narG/marker_contig/RNA150m_marker_contig_map.tsv") %>% 
+    filter(Marker=="narG") %>% 
+    select(Tax.RNA.150 = Confident_Taxonomy, Abund.RNA.150 = Abundance, Query)
+
+narG.DNA.165m = read_tsv("narG/marker_contig/DNA165m_marker_contig_map.tsv") %>% 
+    filter(Marker=="narG") %>% 
+    select(Tax.DNA.165 = Confident_Taxonomy, Abund.DNA.165 = Abundance, Query)
+
+narG.RNA.165m = read_tsv("narG/marker_contig/RNA165m_marker_contig_map.tsv") %>% 
+    filter(Marker=="narG") %>% 
+    select(Tax.RNA.165 = Confident_Taxonomy, Abund.RNA.165 = Abundance, Query)
+
+narG.DNA.200m = read_tsv("narG/marker_contig/DNA200m_marker_contig_map.tsv") %>% 
+    filter(Marker=="narG") %>% 
+    select(Tax.DNA.200 = Confident_Taxonomy, Abund.DNA.200 = Abundance, Query)
+
+narG.RNA.200m = read_tsv("narG/marker_contig/RNA200m_marker_contig_map.tsv") %>% 
+    filter(Marker=="narG") %>% 
+    select(Tax.RNA.200 = Confident_Taxonomy, Abund.RNA.200 = Abundance, Query)
+```
+
+Data manipulation into a single data frame
+```{r, echo=FALSE}
+narG.all = narG.DNA.10m %>% 
+# Combine the data frames will full_join to keep all the data
+  full_join(narG.RNA.10m, by = "Query") %>%
+  full_join(narG.DNA.100m, by = "Query") %>% 
+  full_join(narG.RNA.100m, by = "Query") %>%
+  full_join(narG.DNA.120m, by = "Query") %>% 
+  full_join(narG.RNA.120m, by = "Query") %>%
+  full_join(narG.DNA.135m, by = "Query") %>% 
+  full_join(narG.RNA.135m, by = "Query") %>%
+  full_join(narG.DNA.150m, by = "Query") %>% 
+  full_join(narG.RNA.150m, by = "Query") %>%
+  full_join(narG.DNA.165m, by = "Query") %>% 
+  full_join(narG.RNA.165m, by = "Query") %>% 
+  full_join(narG.DNA.200m, by = "Query") %>% 
+  full_join(narG.RNA.200m, by = "Query") %>% 
+# Create a taxonomy variable aggregating all taxonomy columns so as to fill in any NAs that might occur. !is.na means "is not NA", so the following says that the Taxonomy data should be taken from Tax.RNA.10 if that is not NA, or else take it from Tax.DNA.10 if that is not NA, or else Tax.RNA.200, etc. until if all are NA, give Taxonomy of "unclassified"
+  mutate(Taxonomy = ifelse(!is.na(Tax.RNA.10), Tax.RNA.10,
+                    ifelse(!is.na(Tax.DNA.10), Tax.DNA.10,
+                    ifelse(!is.na(Tax.RNA.100), Tax.RNA.100,
+                    ifelse(!is.na(Tax.DNA.100), Tax.DNA.100,
+                    ifelse(!is.na(Tax.RNA.120), Tax.RNA.120,
+                    ifelse(!is.na(Tax.DNA.120), Tax.DNA.120,
+                    ifelse(!is.na(Tax.RNA.135), Tax.RNA.135,
+                    ifelse(!is.na(Tax.DNA.135), Tax.DNA.135,
+                    ifelse(!is.na(Tax.RNA.150), Tax.RNA.150,
+                    ifelse(!is.na(Tax.DNA.150), Tax.DNA.150,
+                    ifelse(!is.na(Tax.RNA.165), Tax.RNA.165,
+                    ifelse(!is.na(Tax.DNA.165), Tax.DNA.165,
+                    ifelse(!is.na(Tax.RNA.200), Tax.RNA.200,
+                    ifelse(!is.na(Tax.DNA.200), Tax.DNA.200,
+                           "unclassified"))))))))))))))) %>% 
+# Get rid of the old Tax variables
+  select(-starts_with("Tax.")) %>% 
+# Gather all the abundance data into 1 column 
+  gather("Key", "Abundance", starts_with("Abund")) %>% 
+# Turn the Key into Depth and RNA/DNA variables. We can easily do this because we specifically named these variables with period separation when we loaded in the original data
+  separate(Key, c("Key","Type","Depth_m"), by = ".") %>% 
+# Remove Key variable now that it only contains "Abund". This also serves to reorder the columns so that the very long Query is at the end.
+  select(Depth_m, Type, Abundance, Taxonomy, Query) %>% 
+# Make sure R knows depth is numerical since it came from a character variable
+  mutate(Depth_m = as.numeric(Depth_m)) %>% 
+# Separate Taxonomy into columns so we can plot at different levels
+  separate(Taxonomy, into = c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), sep="; ")
+```
+
+Warning above were ignored, because not all queries could be classified down to species level. These cells are filled as NA
+
+##### Final data table
+Table 1. Final data of *narG* gene 
+```{r, echo=FALSE}
+narG.all
+```
+
+##### 1. How does the DNA abundance of *narG* gene differ with depth?  
+
+Figure 1 indicates that the DNA abundance of the *narG* gene has an overall increasing trend with depth. The DNA abundance of the *narG* gene increases gradually from 21.40 to 990.72 at depth from 10 m to 150 m. However, it declines to 249.21 at depth of 165 m, but increases again to 717.90 at depth of 200 m.  
+
+```{r, echo=FALSE}
+narG.all %>% 
+# Filter the DNA data
+  filter(Type == "DNA") %>% 
+# Change NAs to "unclassified" at the level you want to plot. Here we will do Genus
+  mutate(Genus = ifelse(is.na(Phylum), "unclassified", Phylum)) %>% 
+  group_by(Depth_m) %>%
+  mutate(abund_sum=sum(Abundance, na.rm=TRUE))%>%
+  group_by(Depth_m)%>%
+  summarize(abund_sum=mean(abund_sum))%>%
+
+  
+ggplot(aes(x = "narG", y = Depth_m)) +
+# Use the size aesthetic to show abundance
+  geom_point(aes(size = abund_sum)) +
+# Reverse the why axis so depth increases going down
+  scale_y_reverse(lim=c(200,0)) +
+  labs(y="Depth (m)")+
+  theme_classic() +
+  scale_size_continuous(name="Abundance",breaks = c(200,400,600,800)) +
+  geom_text(aes(label=abund_sum, hjust=1.5))+
+  labs(caption = "Figure 1. Abundance of the narG gene (DNA) at different depths",
+       x = "") +
+  theme(plot.caption = element_text(hjust=0.5, size=rel(1.0)))
+```
+ 
+
+##### 2. What taxa are responsible for *narG*? Are they the same with depth? With DNA versus RNA?  
+
+RNA abundance of the *narG* gene with depth does not match the trend of DNA abundance. Figure 2 shows that RNA abundance of the *narG* gene increases significantly from 10 m to 100 m, and reaches its second highest level of 3585.45 at 100 m. Interestingly, the RNA abundance fluctuates between a range of 2500-3700 at depths 100-135 m. After that, it decreases gradually until 200 m. On the other hand, RNA abundance of *narG* gene is much larger than the DNA abundance at depth of 100-165 m, while less *narG* RNA is found in the samples from depth of 10 m and 200 m.  
+```{r, echo=FALSE}
+# DNA and RNA abundance with depth
+DNA.abund.depth=narG.all %>% 
+  filter(Type == "DNA") %>% 
+  mutate(Genus = ifelse(is.na(Phylum), "unclassified", Phylum)) %>% 
+  group_by(Depth_m) %>%
+  mutate(abund_sum=sum(Abundance, na.rm=TRUE))%>%
+  group_by(Depth_m)%>%
+  summarize(DNA=mean(abund_sum))
+
+RNA.abund.depth=narG.all %>% 
+  filter(Type == "RNA") %>% 
+  mutate(Genus = ifelse(is.na(Phylum), "unclassified", Phylum)) %>% 
+  group_by(Depth_m) %>%
+  mutate(abund_sum=sum(Abundance, na.rm=TRUE))%>%
+  group_by(Depth_m)%>%
+  summarize(RNA=mean(abund_sum))
+
+left_join(DNA.abund.depth,RNA.abund.depth,by="Depth_m")%>%
+  gather(Type,abund_sum,DNA:RNA)%>%
+
+# Show both RNA and DNA using an x variable  
+ggplot(aes(x = Type, y = Depth_m)) +
+  geom_point(aes(size = abund_sum)) +
+  labs(y="Depth (m)")+
+  scale_y_reverse(lim=c(200,0)) +
+  theme_classic()+
+  scale_size_continuous(name="Abundance",breaks = c(500,1000,1500,2000,3000)) +
+  geom_text(mapping=aes(label=abund_sum),hjust=1.2)+
+  labs(caption = "Figure 2. Abundance of the narG gene (DNA vs. RNA) at different depths") +
+  theme(plot.caption = element_text(hjust=0.5, size=rel(1.0)))
+```
+
+##### 3. What taxa are responsible for *narG* gene? Are they the same with depth? With DNA versus RNA?  
+
+As shown in Figure 3, Actinobacteria, candidatus Omnitrophica, Chlorobi, Euryarchaeota, metagenomes, Proteobacteria, and unclassified Bacteria are responsible for *narG* DNA. Among of them, Actinobacteria, candidatus Omnitrophica, Chlorobi, Euryarchaeota, and metagenomes have evenly distributed DNA abundance across depth above 100 m. However, the distribution of Proteobacterial DNA abundance with depth follows a similar trend with that of *narG* DNA abundance, in which abundance increases from depth of 10 m to 150 m, declines at depth of 150-165 m, and finally increases again at 200 m. On the contrary, DNA abundance of unclassified Bacteria is the same at depth below 165 m but increases slightly at 200 m.  
+
+Actinobacteria, Proteobacteria, and unclassified Bacteria make dominant contributions to *narG* RNA among the 11 phyla. Actinobacteria is the predominant phylum for *narG* RNA contribution at depth of 100 m and 120 m, but its RNA abundance decreases gradually at deeper water and eventually becomes undetectable at depth of 200 m. Both Proteobacteria and unclassified Bacteria have observed RNA at the seven different depth, although their RNA abundances are not distributed in the same trend with depth. Proteobacterial RNA abundances at depth of 150 m and 200 m are higher than that from other depths, while unclassified Bacteria have the lowest RNA abundance at 150 m and 200 m. Additionally, unclassified Bacteria have RNA abundance increasing with depth at shallow water and reaching the highest point at depth of 135 m.
+
+
+```{r fig.width=8, echo=FALSE}
+narG.all %>% 
+# Change NAs to "unclassified" at the level you want to plot
+  mutate(Phylum = ifelse(is.na(Phylum), "unclassified Bacteria", Phylum)) %>% 
+  
+ggplot(aes(x = Phylum, y = Depth_m)) +
+# Use an ifelse statement to make 0 values into NAs so that they don't show up on the plot
+# Use position_dodge to keep points from overlapping
+  geom_point(aes(size = ifelse(Abundance == 0, NA, Abundance), color = Type), position = position_dodge(0.5)) +
+  scale_y_reverse(lim=c(200,0)) +
+  labs(y="Depth (m)")+
+  theme_classic() +
+# Rename legend
+  scale_size_continuous(name = "Abundance") +  
+  theme(axis.text.x = element_text(angle = 45, hjust =1, size=rel(1.2)))+
+  labs(caption = "Figure 3. Abundance of phyla with narG (DNA vs. RNA) at different depths") +
+  theme(plot.caption = element_text(hjust=0.5, size=rel(1.1)))
+ 
+```
+
+
+##### 4. How does the abundance of *narG* gene relate to nitrogen species in Saanich?  
+
+The *narG* gene has significant impacts on nitrite (NO~2~^-^) and nitrate (NO~3~^-^) concentration across depth in Saanich. It is responsible for the reduction of nitrate to nitrite. As a result, when the RNA abundance of *narG* gene remains at a high level at depths 100-135m (Figure 2), nitrate concentration stops increasing and declines dramatically from its highest point at depth of 100 m (Figure 4D). On the other hand, due to poor nitrification in deeper water, although RNA of *narG* gene is less abundant at depth above 150 m, nitrate concentration continues decreasing with depth until to 0 at depth of 165 m. Similarly, *narG* is also one of the key factors for the fluctuation of nitrite concentration at depth 100-165 m. The low ammonium concentration in depth of 10-135 m indicates a high level of nitrification in the shallow water (Figure 4A), which is responsible for the significant increase of nitrate and the decrease of nitrite at depth 10-100 m. However, nitrite concentration does not keep decreasing with depth above 100m, instead, it remains around 0.09 $\mu$M as a result of high nitrate reduction level caused by the abundant RNA of *narG* gene. Therefore, *narG* gene abundance is closely related to nitrite and nitrate concentration in Saanich.  
+
+```{r fig.width=7, fig.height=7, echo=FALSE}
+load("mothur_phyloseq.RData")
+
+metadata = data.frame(mothur@sam_data)
+
+# DNA/RNA abundance with depth
+plot1 = narG.all %>% 
+# Change NAs to "unclassified" at the level you want to plot
+  mutate(Phylum = ifelse(is.na(Phylum), "unclassified", Phylum)) %>% 
+  
+ggplot(aes(x = Phylum, y = Depth_m)) +
+  geom_point(aes(size = ifelse(Abundance == 0, NA, Abundance), color = Type), position = position_dodge(0.5)) +
+  scale_y_reverse(lim=c(200,0)) +
+  labs(y = "Depth (m)") +
+  theme_classic() +
+  scale_size_continuous(name = "Abundance")+ 
+  theme(axis.text.x = element_text(angle = 45, hjust =1))
+
+#Then, we make our plots for NO2, "plot2", and NO3, "plot3"
+
+plot2 = metadata %>% 
+# Order the data by depth  
+  arrange(Depth_m) %>% 
+  
+ggplot(aes(x = NO2_uM, y = Depth_m)) +
+    geom_point() +
+    geom_path(aes(group = 1)) +
+    scale_y_reverse(lim=c(200,0)) +
+  theme_classic() +
+  labs(y = "Depth (m)",
+       x = "NO2 (uM)")
+plot3 = metadata %>% 
+# Order the data by depth  
+  arrange(Depth_m) %>% 
+  
+ggplot(aes(x = NO3_uM, y = Depth_m)) +
+    geom_point() +
+    geom_path(aes(group = 1)) +
+    scale_y_reverse(lim=c(200,0)) +
+  theme_classic() +
+  labs(y = "Depth (m)",
+       x = "NO3 (uM)")
+
+plot4 = metadata %>% 
+# Order the data by depth  
+  arrange(Depth_m) %>% 
+  
+ggplot(aes(x = NH4_uM, y = Depth_m)) +
+    geom_point() +
+    geom_path(aes(group = 1)) +
+    scale_y_reverse(lim=c(200,0)) +
+  theme_classic() +
+  labs(y = "Depth (m)",
+       x = "NH4 (uM)")
+
+plot5 = metadata %>% 
+# Order the data by depth  
+  arrange(Depth_m) %>% 
+  
+ggplot(aes(x = N2O_nM, y = Depth_m)) +
+    geom_point() +
+    geom_path(aes(group = 1)) +
+    scale_y_reverse(lim=c(200,0)) +
+  theme_classic() +
+  labs(y = "Depth (m)",
+       x = "N2O (nM)")
+
+plot_grid(plot4, plot5, plot2, plot3, labels=c("A", "B", "C", "D"), axis="l", nrow=2, ncol=2, rel_widths=c(1/2, 1/2, 1/2,1/2))+
+  labs(caption = "Figure 4. Nitrogen species in Saanich across depth. 
+A) Ammonium (NH4) concentration across depth   B) Nitrous oxide (N2O) concentration across depth 
+C) Nitrite (NO2) concentration across depth     D) Nitrate (NO3) concentration across depth") +
+  theme(plot.caption = element_text(hjust=0.5, size=rel(0.75)))
+```
+
+####Discussion  
+
+In anthropogenic times, NO~3~^-^ levels have significantly increased in environmental water systems resulting from agricultural activities (7). With increases in NO~3~^-^ entering these systems, the accumulation of nitrogen compounds above threshold levels can lead to eutrophication. Microbe-driven processes such as denitrification, are able to counteract this phenomenon by converting NO~3~^-^ to N~2~. In this context, our gene of interest, *narG*, specifically mediates the first step of this pathway. As the alpha subunit and catalytic domain of the membrane-bound dissimilatory nitrate reductase, *narG* is responsible for the conversion of NO~3~^-^ to NO~2~^-^. NO~2~^-^ will become the substrate of *nirK* and *nirS*, and through subsequent steps and enzymes, eventually lead to the production of N~2~ (8). Interestingly, it has been found that the process of transporting nitrate into the cytoplasmic location of the active site of NarG is inhibited by oxygen, making denitrification an anaerobic process (9). As a result, it is expected that there is greater amounts of *narG* transcription in OMZs compared to surface level waters. From figure 2, peak transcription of *narG* is found at 100 m where oxygen levels are approaching OMZ conditions (Figure 5). Additionally, the large abundance of *narG* transcription at 100 m and deeper can be explained with the corresponding abundance of NO~3~^-^ substrate. Many denitrifying facultative anaerobic microorganisms respire NO~3~^-^ in the absence of oxygen. Denitrification is considered to be the highest energy-yielding respiration system in anoxic environments (10). Increases in NO~3~^-^ at anoxic depth leads to the reduction of nitrate to nitrite in the cytoplasm by *narG*. It has been found that this process is coupled to the translocation of protons into the periplasm which directly contributes to a proton-motive force for energy conservation (8). Therefore, it is not surprising that *narG* transcription levels are near absent at oxic depths where oxygen can still be used as the preferential terminal electron acceptor (TEA), and abundant at anoxic depths where NO~3~^-^ can be used as an alternative TEA.  
+
+```{r fig.width=5, fig.height=5, echo=FALSE}
+# Oxygen with depth
+metadata %>% 
+# Order the data by depth  
+  arrange(Depth_m) %>% 
+  
+ggplot(aes(x = O2_uM, y = Depth_m)) +
+    geom_point() +
+    geom_path(aes(group = 1)) +
+    scale_y_reverse(lim=c(200,0)) +
+  theme_classic() +
+  labs(y = "Depth (m)",
+       x = "O2 (uM)")+
+  labs(caption="Figure 5. Oxygen in Saanich across depth")+
+  theme(plot.caption = element_text(hjust=0.5,size=rel(1.0)))
+```
+
+Metabolisms in the nitrogen cycle is widely distributed, such that each reaction step is catalyzed by a specific enzyme from a different bacterial species carrying the corresponding genes. This distribution may be the consequence of the distinct energy and nutrient sources which are available in different ecosystems, as well as other mechanisms, namely horizontal gene transfer, and adaptive gene loss.  
+
+In aerobic environments like shallow water and topsoil, nitrification is the predominant process of the nitrogen cycle, due to the availability of ammonia and nitrite as energy sources for nitrifying bacteria and the inhibitive effect of oxygen on denitrifiers (11,12). On the contrary, denitrification occurs in anoxic environments including OMZs and marine sediments, where nitrate serves as energy and nutrient source and the limitation of oxygen on denitrification is minimum (8). Besides, some bacteria evolve additional mechanisms to protect nitrogen-related enzymes from unfavorable environments. For example, *Trichodesmium* spp. and *Nodularia* spp. adopt the strategy that nitrogen fixation is separated from photosynthesis, in order to minimize oxygen suppression on nitrogenases, an enzyme for nitrogen fixation (8). Therefore, environmental conditions is one of the possible reason for the distributed metabolisms.  
+
+Another potential explanation for metabolic distribution of the nitrogen cycle is horizontal gene transfer (HGT). Bacteria may acquire nitrogen-related genes from other species through HGT and take up the niche of corresponding reactions in the nitrogen cycle. For instance, ammonia monooxygenase genes, encoding the key enzyme required for ammonia oxidation, are observed widely distributed among different bacterial species (6). As a result, if a certain bacterial species responsible for ammonia oxidation became extinct in a specific ecosystem, other species, carrying ammonia monooxygenase genes and able to perform the process of ammonia oxidation, would take up the niche of the extinct one.  On the other hand, the retention of horizontally transferred gene is largely driven by selective pressure on nutrients and energy, and thus different processes in the nitrogen cycle are widely distributed among microorganisms and ecosystems (6).   
+
+Gene loss may also make contributions to the wide distribution of metabolisms in the nitrogen cycle. A hypothesis, called as Black Queen Hypothesis (BQH), is proposed recently to explain the dependency of free-living microorganisms having metabolic gene loss on other species (13). In this hypothesis, two groups of bacterial species are defined: "helper" and "beneficiaries". The hypothesis predicts that in a microbial community, "beneficiaries", which is selected to lose a costly and dispensable functions, will obtain the function from a fraction of other individuals in the community, until the function is sufficient to support the whole community (13). Based on the hypothesis, it can be explained that why nitrogen fixation is performed by a small fraction of microorganisms in the ocean. The possible reasons may be that genes responsible for nitrogen fixation were selectively lost during evolution and fixed N was turned into a public good (13).  
+
+This study paves the way for future investigations into metabolic coupling and symbiotic interactions in the nitrogen cycle. It appears that *narG* levels are regulated by oxygen levels and availability of the NO~3~^-^ substrate; however, the effect of other environmental factors has yet to be related with gene abundance. According to Palmer et al., in sediment communities, Actinobacterial  *narG* dominates in extreme environments characterized by low pH or high temperature, while Proteobacterial *narG* is present in pH-neutral soils (15). Given that Actinobacteria and Proteobacteria dominated DNA and transcript expression of *narG* in an aquatic context, it would be useful to determine whether these abundances are due to pH, temperature, or other measurable geochemical parameters.  
+
+Additionally, as *narG* is inhibited by its own product, nitrite, it may be interesting to see how *narG* abundances vary with *nirK* and *nirS* abundances, which consume nitrite. Interestingly, previous studies have noted that *nirS* was dominated by $\beta$-Proteobacteria, while *nirK* was dominated by $\alpha$-Proteobacteria (14). Our study results also suggest *narG* is dominated in part by Proteobacteria, although more in depth analysis into different classes of Proteobacteria have not been attempted. A deeper analysis into the abundance of *narG* in different classes of Proteobacteria may be necessary to establish a correlation between how the abundances of *nirK*, *nirS*, and *narG* vary within the Proteobacteria phylum.  
+
+
+####References  
+
+1. Walsh DA, Zaikova E, Howes CG, Song YC, Wright JJ, Tringe SG, Hallam SJ. 2009. Metagenome of a versatile chemolithoautotroph from expanding oceanic dead zones. Science 326(5952): 578-582.  
+2. Torres-Beltran M, Hawley AK, Capelle D, Zaikova E, Walsh DA., Mueller A, Finke J. 2017. A compendium of geochemical information from the Saanich Inlet water column. Nature scientific data 4(170159).  
+3. Hawley AK, Torres-Beltran M, Zaikova E, Walsh DA, Mueller A, Scofield M, Kheirandish S, Payne C, Pakhomova L, Bhatia M, Shevchek O, Gies EA, Fairley D, Malfatii SA, Norbeck AD, Brewer HM, Pasa-Tolic, L, del Rio TG, Suttle CA, Trige S, Hallam SJ. Data Descriptor: A compendium of multi-omic sequence information from the Saanich Inlet water column. Nature scientific data 4(170160).  
+4. Hallam SJ, Torres-Beltran M, Hawley AK. Comment: Monitoring microbial responses to ocean deoxygenation in a model oxygen minimum zone. Nature scientific data 4(170158).  
+5. National Research Council. 2007. The new science of metagenomics: revealing the secrets of our microbial planet. National Academies Press, Washington, DC.  
+6. Falkowski PG, Fenchel T, Delong EF. 2008. The microbial engines that drive Earth's biogeochemical cycles. Science 320(5879): 1034-1039.  
+7. Smith CJ, Nedwell DB, Dong LF, Osborn AM. 2007. Diversity and Abundance of Nitrate Reductase Genes (narG and napA), Nitrite Reductase Genes (nirS and nrfA), and Their Transcripts in Estuarine Sediments. Applied and environmental microbiology, 73(11): 3612-3622.  
+8. Kuypers MM., Marchant, HK,  Kartal B. (2018). The microbial nitrogen-cycling network. Nature Reviews Microbiology.  
+9. Moreno-Vivian C, Cabello P, Martinez-Luque M, Blasco R, Castillo F. (1999). Prokaryotic nitrate reduction: molecular properties and functional distinction among bacterial nitrate reductases. Journal of bacteriology, 181(21): 6573-6584.   
+10. Strohm TO, Griffin B, Zumft WG, Schink B. (2007). Growth yields in bacterial denitrification and nitrate ammonification. Applied and environmental microbiology, 73(5): 1420-1424.  
+11. Ward BB. 2008. Nitrification,  p 2511-2518. In Jorgensen SE and Fath BD(ed), Ecological Processes, vol. 3 of Encyclopedia of Ecology, 5 vols. Oxford: Elsevier.  
+12. Nakajima M, Hayamize T, Nishimura H. 1983. Effect of oxygen concentration on the rates of denitrification and denitrification in the sediments of an eutrophic lake. Water Resources, vol. 18, no. 3, p 335-337.  
+13. Morris JJ, Lenski RE, Zinser ER. 2012. The black queen hypothesis: Evolution of dependencies through adaptive gene loss. mBio 3(2). DOI: 10.1128/mBio.00036-12.
+14. Yu Z, Yang J, Liu L. 2014. Denitrifier Community in the Oxygen Minimum Zone of a Subtropical Deep Reservoir. PLoS One 9(3): e92055.  
+15. Palmer K, Horn MA. 2015. Denitrification Activity of a Remarkably Diverse Fen Denitrifier Community in Finnish Lapland Is N-Oxide Limited. PLoS One 10(4): e0123123. 

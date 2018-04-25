@@ -1,0 +1,317 @@
+LABELS
+SEPARATOR COMMA
+DATA
+#NODE_ID,LABEL
+1,Ferroglobus placidus DSM 10642 | ADC64491
+2,Halosimplex carlsbadense 2-9-1 | ELZ22299
+3,Haloferax denitrificans ATCC 35960 | EMA07962
+4,Aeropyrum camini SY1 = JCM 12091 | BAN90287
+5,Sulfolobus islandicus M.16.27 | ACP54775
+6,Pyrobaculum aerophilum str. IM2 | AAL65042
+7,Vulcanisaeta distributa DSM 14429 | ADN50827
+8,Proteobacteria bacterium CAG:139 | CDA43875
+9,Acidobacteria bacterium OLB17 | KXK06953
+10,Desulfurispirillum indicum S5 | ADU67158
+11,Deferribacter desulfuricans SSM1 | BAI81537
+12,Denitrovibrio acetiphilus DSM 12809 | ADD68833
+13,Macellibacteroides sp. HH-ZS | OCW93424
+14,Chlorobi bacterium OLB4 | KXK05783
+15,Chlorobi bacterium OLB6 | KXK34846
+16,Omnitrophica bacterium OLB16 | KXK31706
+17,Acidithiobacillus thiooxidans | OCX88457
+18,Acidithiobacillus caldus ATCC 51756 | AIA55618
+19,Asticcacaulis sp. AC460 | ESQ88094
+20,Phenylobacterium zucineum HLK1 | ACG77099
+21,Caulobacteraceae bacterium OTSz_A_272 | ANP46008
+22,uncultured SAR11 cluster alpha proteobacterium | ANY93556
+23,Methylocella silvestris BL2 | ACK50460
+24,Bosea vaviloviae | KPH80391
+25,Bradyrhizobium sp. STM 3843 | CCE09484
+26,Nitrobacter hamburgensis X14 | ABE63726
+27,Brucella canis 04-2330-1 | ERU06751
+28,Hyphomicrobium denitrificans ATCC 51888 | ADJ22740
+29,Methylobacterium sp. 4-46 | ACA19976
+30,Mesorhizobium sp. Root695 | KRB13549
+31,Paramesorhizobium deserti | KXF74829
+32,Hyphomonas oceanitis SCH89 | KDA00978
+33,Maricaulis maris MCS10 | ABI66992
+34,Jannaschia rubra | CTQ34345
+35,Paracoccus sp. MKU1 | KRW96099
+36,Thioclava sp. DT23-4 | KEO56865
+37,Acetobacter pasteurianus subsp. pasteurianus LMG 1262 = NBRC 106471 | GAB31980
+38,Acidiphilium sp. PM | EGO94383
+39,Commensalibacter intestini A911 | EHD13475
+40,Oceanibaculum indicum P24 | EKE78977
+41,Thalassospira tepidiphila MCCC 1A03514 | OAZ11827
+42,Tistrella mobilis | KYO53154
+43,Sphingomonas sp. Ag1 | KKI20764
+44,Sphingomonadales bacterium BRH_c3 | KUO49197
+45,Micavibrio aeruginosavorus EPB | AGH97652
+46,Achromobacter sp. ATCC31444 | CUJ68721
+47,Basilea psittacipulmonis DSM 24701 | AIL32826
+48,Bordetella petrii | CAP44172
+49,Bordetella trematum | SAI60541
+50,Castellaniella defragrans 65Phen | CDM25593
+51,Burkholderia sp. HB1 | ALE57320
+52,Burkholderia sp. ST111 | KPD15543
+53,Burkholderia cepacia | AKE02066
+54,Burkholderia ubonensis | KVD10728
+55,Lautropia mirabilis ATCC 51599 | EFV94525
+56,Paraburkholderia phymatum STM815 | ACC75231
+57,Acidovorax avenae subsp. avenae ATCC 19860 | ADX44553
+58,Delftia sp. Cs1-4 | AEF92375
+59,Ramlibacter tataouinensis | AMO24778
+60,Comamonadaceae bacterium B1 | BAO82319
+61,Janthinobacterium sp. CG23_2 | CUU26921
+62,Sutterella sp. CAG:351 | CDE52297
+63,Tepidimonas fonticaldi | OBS31107
+64,Thiomonas sp. CB2 | CDW94461
+65,Thiomonas sp. CB3 | CQR42930
+66,Pseudogulbenkiania sp. NH8B | BAK77490
+67,Amantichitinum ursilacus | KPC52487
+68,Neisseria bacilliformis ATCC BAA-1200 | EGF10280
+69,Neisseria wadsworthii 9715 | EGZ44688
+70,Snodgrassella alvi | KDN14757
+71,Thiobacillus denitrificans | KVW96029
+72,Aromatoleum aromaticum EbN1 | CAI09720
+73,Candidatus Accumulibacter sp. SK-01 | KFB69441
+74,beta proteobacterium CB | AGG32994
+75,Betaproteobacteria bacterium SG8_40 | KPK34517
+76,Alteromonas macleodii str. 'English Channel 615' | AGP79524
+77,Marinobacter sp. EVN1 | ERS85831
+78,Idiomarina abyssalis | KPD21826
+79,Shewanella halifaxensis HAW-EB4 | ABZ74753
+80,Shewanella halifaxensis HAW-EB4 | ABZ77986
+81,Gammaproteobacteria bacterium MOLA455 | ETN92194
+82,Alkalilimnicola ehrlichii MLHE-1 | ABI56356
+83,Nitrococcus mobilis Nb-231 | EAR21177
+84,Klebsiella pneumoniae | KMB29533
+85,Klebsiella pneumoniae subsp. pneumoniae DSM 30104 | EJK90729
+86,Mangrovibacter sp. MP23 | OAT78868
+87,Salmonella enterica subsp. enterica serovar Agona str. 442692 2-5 | ESB38699
+88,Salmonella enterica subsp. enterica serovar Pullorum str. 19945 | ESG02438
+89,Erwinia iniecta | KOC94455
+90,Tatumella morbirosei | KGD74897
+91,Edwardsiella tarda | AKH90282
+92,Morganella psychrotolerans | OBU05436
+93,Serratia marcescens | CVE54994
+94,Methylomonas methanica | OAI01902
+95,Methylothermaceae bacteria B42 | KXJ42054
+96,Steroidobacter denitrificans | AMN47601
+97,Halomonas campaniensis | AIA76369
+98,Halomonadaceae bacterium T82-2 | KXS36665
+99,Acinetobacter equi | ALH95744
+100,Psychrobacter sp. P11F6 | KRG32013
+101,Pseudomonas simiae | AIB37004
+102,Pseudomonas sp. StFLB209 | BAP44865
+103,Pseudomonas sp. HPB0071 | ENA29205
+104,Pseudomonas aeruginosa 148 | KAJ22968
+105,Salinisphaera hydrothermalis C41B8 | KEZ76583
+106,Methylophaga nitratireducenticrescens | AFI83333
+107,Vibrio furnissii | KQH86764
+108,Vibrio sp. MEBiC08052 | KUI99645
+109,Stenotrophomonas maltophilia | KYK41125
+110,uncultured gamma proteobacterium | BAL53517
+111,uncultured SUP05 cluster bacterium | ACX30506
+112,Candidatus Competibacter denitrificans Run_A_D11 | CDI03364
+113,Thiohalorhabdus denitrificans | KPV41188
+114,Thiohalorhabdus denitrificans | KPV41235
+115,endosymbiont of Ridgeia piscesae | KRT54135
+116,Candidatus Vesicomyosocius okutanii HA | BAF61762
+117,gamma proteobacterium HdN1 | CBL44907
+118,Tepidiphilus thermophilus | CUB06312
+119,Desulfobacterium autotrophicum HRM2 | ACN13189
+120,Desulfococcus multivorans DSM 2059 | EPR41658
+121,Bilophila wadsworthia 3_1_6 | EFV45977
+122,Desulfovibrio sp. 3_1_syn3 | EFL87321
+123,Desulfuromonas sp. DDH964 | AMV72892
+124,Geobacter sp. M18 | ADW13910
+125,Geobacter lovleyi SZ | ACD93934
+126,Geobacter lovleyi SZ | ACD96365
+127,Geobacter metallireducens GS-15 | ABB31262
+128,Anaeromyxobacter sp. Fw109-5 | ABS27776
+129,Anaeromyxobacter sp. K | ACG72937
+130,Desulfomonile tiedjei DSM 6799 | AFM23682
+131,Deltaproteobacteria bacterium SG8_13 | KPJ75082
+132,Deltaproteobacteria bacterium CSP1-8 | KRT74986
+133,Deltaproteobacteria bacterium GWC2_55_46 | KYK99355
+134,Actinobaculum sp. oral taxon 183 str. F0552 | ERH17666
+135,Actinomyces neuii | KWZ73890
+136,Actinomyces cardiffensis F0333 | ENO18202
+137,Actinomyces johnsonii F0542 | ERH23609
+138,Actinomyces sp. oral taxon 178 str. F0338 | EFW09379
+139,Mobiluncus curtisii ATCC 43063 | ADI67765
+140,Varibaculum cambriense | KXB79304
+141,Actinomycetaceae bacterium BA112 | OAP86598
+142,Catenulispora acidiphila DSM 44928 | ACU73341
+143,Corynebacterium camporealensis | AKE38952
+144,Corynebacterium pseudotuberculosis | AKP08036
+145,Corynebacterium stationis | AMJ44853
+146,Corynebacterium glutamicum | OKX81247
+147,Corynebacterium doosanense CAU 212 = DSM 45436 | AIT60837
+148,Corynebacterium matruchotii ATCC 14266 | EFM48153
+149,Corynebacterium pyruviciproducens ATCC BAA-1742 | EPD71016
+150,Dietzia cinnamea P4 | EFV92934
+151,Gordonia sp. QH-12 | KXT58748
+152,Gordonia hirsuta DSM 44140 = NBRC 16056 | GAC56419
+153,Gordonia otitidis NBRC 100426 | GAB33652
+154,Amycolicicoccus subflavus DQS3-9A1 | AEF40541
+155,Mycobacterium sp. 1137317.9 | OBJ05651
+156,Mycobacterium sinense | OBK84324
+157,Mycobacterium sinense | OBK89841
+158,Mycobacterium tuberculosis | CNG49139
+159,Mycobacterium tuberculosis | CNG65748
+160,Mycobacterium tuberculosis | CNI33680
+161,Nocardia sp. NRRL S-836 | KOV87900
+162,Nocardia terpenica | KZM72744
+163,Nocardia sp. 852002-20019_SCH5090214 | OBA65862
+164,Nocardia sp. 852002-51244_SCH5132740 | OBB31479
+165,Nocardia cyriacigeorgica GUH-2 | CCF63711
+166,Nocardia farcinica IFM 10152 | BAD59400
+167,Rhodococcus equi | AAY17360
+168,Rhodococcus triatomae BKS 15-14 | EME19682
+169,Modestobacter caceresii | KGH45121
+170,Stackebrandtia nassauensis DSM 44728 | ADD44848
+171,Brevibacterium linens | KHS51353
+172,Cellulomonas sp. Leaf395 | KQS99354
+173,Cellulomonas cellasea DSM 20118 | KGM03614
+174,Cellulomonas fimi ATCC 484 | AEE45469
+175,[Cellvibrio] gilvus ATCC 13127 | AEI13516
+176,Oerskovia sp. Root918 | KRD46018
+177,Oerskovia enterophila | KZM33560
+178,Brachybacterium faecium DSM 4810 | ACU85688
+179,Austwickia chelonae NBRC 105200 | GAB78716
+180,Kineosphaera limosa NBRC 100340 | GAB97717
+181,Mobilicoccus pelagius NBRC 104925 | GAB49886
+182,Intrasporangium chromatireducens Q5-1 | EWT07230
+183,Janibacter sp. Soil728 | KRE37800
+184,Knoellia sp. Soil729 | KRE40468
+185,Knoellia subterranea KCTC 19937 | KGN37802
+186,Phycicoccus sp. Soil748 | KRE59003
+187,Phycicoccus sp. Soil803 | KRF26989
+188,Terrabacter sp. Soil811 | KRF47774
+189,Tetrasphaera australiensis Ben110 | CCH72729
+190,Tetrasphaera elongata Lp2 | CCH71012
+191,Jonesia denitrificans DSM 20603 | ACV08891
+192,Agromyces sp. Leaf222 | KQM81148
+193,Cryobacterium sp. MLB-32 | KFF59374
+194,Microbacterium trichothecenolyticum | KJL43102
+195,Arthrobacter sp. PAMC25486 | AIY02596
+196,Arthrobacter sp. 11W110_air | CEA09044
+197,Arthrobacter sp. W1 | KWR70543
+198,Arthrobacter crystallopoietes BAB-32 | EMY33434
+199,Kocuria sp. UCD-OTCP | EYT47586
+200,Kocuria sp. ICS0012 | OBA49870
+201,Arthrobacter gangotriensis Lz1y | EMQ99161
+202,Cellulosimicrobium sp. I38E | KZM76300
+203,Cellulosimicrobium cellulans F16 | KON73654
+204,Isoptericola dokdonensis DS-3 | ANC33000
+205,Xylanimonas cellulosilytica DSM 15894 | ACZ30844
+206,Actinoplanes missouriensis 431 | BAL89231
+207,Micromonospora coxensis | SCG37226
+208,Nakamurella multipartita DSM 44233 | ACV79987
+209,Kribbella flavida DSM 17836 | ADB33197
+210,Nocardioides sp. Soil797 | KRF19074
+211,Propionibacterium acnes HL013PA2 | EGE92052
+212,Propionibacterium acnes SK182B-JCVI | EGR96978
+213,Propionibacterium freudenreichii | CEG90689
+214,Propionibacterium acidifaciens F0233 | ERK51516
+215,Propionibacterium propionicum F0230a | AFN46994
+216,Tessaracoccus lapidicaptus | OCL31435
+217,Actinosynnema mirum DSM 43827 | ACU35986
+218,Amycolatopsis regifaucium | KZB79686
+219,Pseudonocardia dioxanivorans CB1190 | AEA26462
+220,Saccharomonospora azurea SZMC 14600 | EHK88211
+221,Saccharopolyspora erythraea D | EQD82575
+222,Streptomyces nodosus | AJE44385
+223,Streptomyces sp. SAT1 | ANH92539
+224,Streptomyces laurentii | BAU85896
+225,Streptomyces sp. Tu 6176 | EYT82411
+226,Streptomyces rimosus | KEF08425
+227,Streptomyces viridochromogenes | KMS76788
+228,Streptomyces sp. NRRL F-6602 | KPC91099
+229,Streptomyces sp. NRRL F-6602 | KPC95208
+230,Streptomyces regalis | KUL22252
+231,Streptomyces thermoautotrophicus | KWX09527
+232,Streptomyces bingchenggensis BCW-1 | ADI11081
+233,Streptomyces cattleya NRRL 8057 = DSM 46488 | CCB72452
+234,Streptomyces coelicoflavus ZG0656 | EHN76113
+235,Streptomyces rimosus subsp. rimosus | KOT57767
+236,Streptomyces viridochromogenes Tue57 | ELS57912
+237,Marinactinospora thermotolerans | AGL76713
+238,Nocardiopsis alba ATCC BAA-2165 | AFR09647
+239,Planomonospora sphaerica | GAT71075
+240,Streptosporangium roseum DSM 43021 | ACZ84912
+241,Eggerthella sp. CAG:298 | CDD60395
+242,Rubrobacter radiotolerans DSM 5868 | SMC03395
+243,Rubrobacter xylanophilus DSM 9941 | ABG04171
+244,Conexibacter woesei DSM 14684 | ADB49919
+245,Patulibacter sp. I11 | EHN12540
+246,Chloroflexi bacterium OLB14 | KXK10874
+247,Marinithermus hydrothermalis DSM 14884 | AEB12579
+248,Oceanithermus profundus DSM 14977 | ADR36877
+249,Thermus oshimai JL-2 | AFV76091
+250,Alicyclobacillus ferrooxydans | KPV44240
+251,Alicyclobacillus tengchongensis | KRW92462
+252,Kyrpidia tusciae DSM 2912 | ADG06362
+253,Anoxybacillus flavithermus NBRC 109594 | GAC89787
+254,Bacillus coagulans | AJO21473
+255,Bacillus sp. OxB-1 | BAQ09748
+256,Bacillus firmus | KML41175
+257,Bacillus sp. FJAT-18043 | KQL19776
+258,Bacillus galactosidilyticus | OAK74049
+259,Bacillus azotoformans MEV2011 | KEF35971
+260,Bacillus azotoformans MEV2011 | KEF37642
+261,Bacillus bataviensis LMG 21833 | EKN65800
+262,Bacillus mycoides Rock3-17 | EEM09192
+263,Bacillus licheniformis | KYD01370
+264,Bacillus sonorensis L12 | EME75730
+265,Geobacillus sp. BCO2 | KPC97990
+266,Hydrogenibacillus schlegelii | OAR04339
+267,Lentibacillus amyloliquefaciens | KPN69503
+268,Oceanobacillus caeni | KPH75804
+269,Geobacillus caldoxylosilyticus NBRC 107762 | GAJ41249
+270,Tepidibacillus sp. HK-1 | GAU62763
+271,Tepidibacillus sp. Z9 | KXG43859
+272,Listeria fleischmannii FSL S10-1203 | EUJ59215
+273,Listeria grayi FSL F6-1183 | EUJ27980
+274,Listeria rocourtiae FSL F6-920 | EUJ46014
+275,Paenibacillus polymyxa | KEO76369
+276,Paenibacillus sp. Root52 | KQY94016
+277,Paenibacillus sp. LPB0068 | OAB74493
+278,Paenibacillus sp. LPB0068 | OAB74867
+279,Paenibacillus odorifer | OME57984
+280,Paenibacillus larvae subsp. larvae DSM 25719 | ETK28986
+281,Jeotgalibacillus alimentarius | KIL51233
+282,Bacillus selenitireducens MLS10 | ADH98804
+283,Salinicoccus halodurans | AKG73021
+284,Salinicoccus roseus | KIH71699
+285,Salinicoccus sp. SV-16 | KKK33443
+286,Staphylococcus pseudintermedius | ANQ87527
+287,Staphylococcus epidermidis W23144 | EES35050
+288,Acidibacillus ferrooxidans | KYP79502
+289,Lactobacillus ginsenosidimutans | AKP67833
+290,Lactobacillus bifermentans DSM 20003 | KRK40322
+291,Lactobacillus composti DSM 18527 = JCM 14202 | KRM33080
+292,Lactobacillus farraginis DSM 18382 = JCM 14108 | KRM07448
+293,Lactobacillus fermentum CECT 5716 | ADJ41300
+294,Lactobacillus parafarraginis F0439 | EHL95153
+295,Lactobacillus reuteri MM4-1A | EGC15008
+296,Bacilli bacterium VT-13-104 | KKE78189
+297,Desulfitobacterium hafniense DP7 | EHL08046
+298,Desulfosporosinus acididurans | KLU64895
+299,Desulfotomaculum sp. LMa1 | OAT85876
+300,Thermodesulfobium narugense DSM 14796 | AEE13744
+301,Mitsuokella multacida DSM 20544 | EEX68508
+302,Selenomonas sp. oral taxon 478 | AKT53902
+303,Selenomonas ruminantium | BAC24758
+304,Selenomonas sp. CM52 | EJU25526
+305,Pelosinus fermentans B4 | EIW17950
+306,Veillonella dispar DORA_11 | ETI98978
+307,Veillonella ratti ACS-216-V-Col6b | EKU78407
+308,Candidatus Acetothermus autotrophicum | BAL58888
+309,Candidatus Saccharibacteria bacterium GW2011_GWA2_46_10 | KKU19706
+310,Candidatus Methylomirabilis oxyfera | CBE67843
+311,Bacillus sp. X1(2014) | AIM17227
+312,uncultured prokaryote | BAL54613
+313,hydrocarbon metagenome | KUG26972

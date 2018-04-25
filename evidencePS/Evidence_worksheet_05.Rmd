@@ -1,17 +1,19 @@
 ---
-title: "Evidence_worksheet_01"
+title: "Evidence_worksheet_05"
 author: "Student Name"
 student number: "31837131"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
-output:
-  word_document: default
-  html_document: default
+output: 
+  html_document:
+    toc: true
+    theme: united
 ---
 
 ## Evidence Worksheet 5 for "Extensive mosaic structure"
 
 
 ### Learning Objectives
+
 *	Evaluate the concept of microbial species based on environmental surveys and cultivation studies.
 
 *	Explain the relationship between microdiversity, genomic diversity and metabolic potential
@@ -22,21 +24,42 @@ output:
 ### General Questions
 #### What were the main questions being asked?
 
-
+* What is the complete genome of uropathogenic straing CFT073
+* what are the differences between strains of e. coli? How are the strains different, and are these differences significant? Is this difference neutral, or relevant to pathogenicity?
+* how much difference is there between the strains?
+    
 #### What were the primary methodological approaches used?
 
+* 3 strains of e. coli obtained, CFT073 (uropathogenic), EDL933 (enterohemorrhagic), and MG1655 (laboratory string)
+* isolate and culture CFT073, create shotgun library with PCR and primer walking (old technique)  
+* assemple, annotate and compare the seqs of the 3 strains (other 2 strains already have sequences)
+    * predict proteins compared to NCBI database and deduce evolutionary basis of pathogenecity
 
 
 #### Summarize the main results or findings. 
 
+* sequence for uropathogenic strain determined and basic information of uropathogenic strain on genome organization collected
+* identified distinct codon usage in island genes suggesting acquisition by HGT
+* uropathogenic strain CFT073 has specific islands, ~ 10% genes shared with EDL933
+    * 2/3 have unknown functions or may be phage/insertion element associated
+    * 1/3 are encoding iron update, fatty acid biosynthesis genes, adhesins, phosphetransferases, ABC type transporter
+        * adhesins!! important shared role in pathogenicity?
+* difference in diseases potential between uropathonic and enterohemorrhagic strins determined
+    * enterohemmorrhagic strin has a type III secretion system and phage/plasmid encoded virulence genes
+    * uropathogenic strain has specific adhesins, secreted autotransporteds and phase switch recombinases
+* only 39.2% similarity between the 3 strains of the same "species"!! COre metabolic pathways and housekeeping is similar tho, and the reamining 60% of diversity is from HGT
 
 
 
 #### Do new questions arise from the results?
 
+* Is our definition of "species" relevant when it comes to microbes? As seen here species encompasses all of the pathogenic and non pathogenic strains of ecoli... is this definition too broad?
+    * can it be improved? Or should we just do away with it
+* Alternatively, do we keep the species, and just keep talking about them in strains... but then what is the purpose of have species classifier?
 
 
 #### Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
 
-
+* heavy with jargon at times
+* expansion of implications of results on species concepts would be better, since this is very interesting and is only briefly mentioned
 

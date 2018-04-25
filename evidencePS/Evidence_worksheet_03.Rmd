@@ -1,11 +1,12 @@
 ---
-title: "Evidence_worksheet_01"
+title: "Evidence_worksheet_03"
 author: "Student Name"
 student number: "31837131"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
-output:
-  word_document: default
-  html_document: default
+output: 
+  html_document:
+    toc: true
+    theme: united
 ---
 
 ## Evidence Worksheet 3 for "The Anthropocene"
@@ -17,20 +18,35 @@ Evaluate human impacts on the ecology and biogeochemistry of Earth systems.
 ### General Questions
 #### What were the main questions being asked?
 
+* have humans changed the Earth to the extent that geological deposits have a distinct signature from the previous epochs? If so, when was this stratigraphic signal recognizable worldwide?
 
 #### What were the primary methodological approaches used?
 
-
+* by reviewing other primery literature, 1. define reasonable stratigraphic signals to use as markers to recognize the Anthropocene (and making them consistent with those used for earlier periods)
+* Describe signals and use them to place the anthropocene in earth's timeline
 
 
 #### Summarize the main results or findings. 
 
-
-
+* key markers of anthropogenic change have  increased, supporting an Anthropocene epoch - this includes concrete, plastics, global black carbon, plutonium, nitrates, CO2, CH4, temperature and extinction :(
+* new anthropogenic materials have persistent and widespread remains, previously unseen at such high levels - due to manufacturing (plastics, aluminum, concrete), and from fossil fuel burning (black carbon, inorganic ash spheres, spherical carbonaceious particles), products of mining, waste disposal, construction and urbanization
+    * both increased greatly after 1950s - great acceleration event
+* sedimentary proccesses modified due to more N and P inventories, which leaves distinct rock layering in lakes and ice nitrate levels
+* geochemical signatures, including polyaromatic HCs, polychlorinated BPs, pesticide residues, 207/206Pb ratios, starting in 1945-1950
+* radiogenic signatures and radionuclides in sediments in ice due to nuclear weapons testing, resulting in excess 13C
+* carbon cycle perturbations
+* sea level and temperature rapidly increasing
+* all of the above points are unique from the Holocene, or unexplainable variance in Holocene's history. This means that all are due to human acticity, and will continue to increase, therefore Anthropocene is well supported, and probably can be considered to start in the mid 1900s
+    
 #### Do new questions arise from the results?
-
+    
+* What comes after the Anthropocene? Have we brought upon our own demise? If not, are some of these changes reversable? Do we want to reverse these changes? Or do we give up on going back to how things were, and try to adapt to changes instead - spaceship Earth? 
 
 
 #### Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
+
+* figures were very useful, allowed condensed view for evidence to claims
+* some jargon  used, especially in quaternary stratigraphic units section
+* section headers were used amazingly, and allowed quick identification/navigation of essential evidence/points
 
 

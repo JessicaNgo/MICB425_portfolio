@@ -1,0 +1,265 @@
+---
+title: "Project 2 example plots"
+author: "Jessica Ngo"
+date: '2018-04-06'
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+    toc_float:
+      collapsed: no
+---
+
+## Setup
+As always, packages!
+```{r}
+library(tidyverse)
+library(cowplot)
+```
+
+Load in "marker_contig_map.tsv" files. For this example, we are using some fake data for mcrA. Since each depth is in a separate file, we rename the variables so that we can tell them apart when we combine the data frames. We will only need the taxonomy, abundance, and query data.
+```{r message=FALSE}
+narG.DNA.10m = read_tsv("narG/marker_contig/DNA10m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%
+    select(Tax.DNA.10 = Confident_Taxonomy, Abund.DNA.10 = Abundance, Query)
+
+narG.RNA.10m = read_tsv("narG/marker_contig/RNA10m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>% 
+    select(Tax.RNA.10 = Confident_Taxonomy, Abund.RNA.10 = Abundance, Query)
+
+narG.DNA.100m = read_tsv("narG/marker_contig/DNA100m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>% 
+    select(Tax.DNA.100 = Confident_Taxonomy, Abund.DNA.100 = Abundance, Query)
+
+narG.RNA.100m = read_tsv("narG/marker_contig/RNA100m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%  
+    select(Tax.RNA.100 = Confident_Taxonomy, Abund.RNA.100 = Abundance, Query)
+
+narG.DNA.120m = read_tsv("narG/marker_contig/DNA120m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%  
+    select(Tax.DNA.120 = Confident_Taxonomy, Abund.DNA.120 = Abundance, Query)
+
+narG.RNA.120m = read_tsv("narG/marker_contig/RNA120m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%  
+    select(Tax.RNA.120 = Confident_Taxonomy, Abund.RNA.120 = Abundance, Query)
+
+narG.DNA.135m = read_tsv("narG/marker_contig/DNA135m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%  
+    select(Tax.DNA.135 = Confident_Taxonomy, Abund.DNA.135 = Abundance, Query)
+
+narG.RNA.135m = read_tsv("narG/marker_contig/RNA135m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%  
+    select(Tax.RNA.135 = Confident_Taxonomy, Abund.RNA.135 = Abundance, Query)
+
+narG.DNA.150m = read_tsv("narG/marker_contig/DNA150m_marker_contig_map.tsv") %>%
+    filter(Marker=="narG") %>%  
+    select(Tax.DNA.150 = Confident_Taxonomy, Abund.DNA.150 = Abundance, Query)
+
+narG.RNA.150m = read_tsv("narG/marker_contig/RNA150m_marker_contig_map.tsv") %>% 
+    filter(Marker=="narG") %>% 
+    select(Tax.RNA.150 = Confident_Taxonomy, Abund.RNA.150 = Abundance, Query)
+
+narG.DNA.165m = read_tsv("narG/marker_contig/DNA165m_marker_contig_map.tsv") %>% 
+    filter(Marker=="narG") %>% 
+    select(Tax.DNA.165 = Confident_Taxonomy, Abund.DNA.165 = Abundance, Query)
+
+narG.RNA.165m = read_tsv("narG/marker_contig/RNA165m_marker_contig_map.tsv") %>% 
+    filter(Marker=="narG") %>% 
+    select(Tax.RNA.165 = Confident_Taxonomy, Abund.RNA.165 = Abundance, Query)
+
+narG.DNA.200m = read_tsv("narG/marker_contig/DNA200m_marker_contig_map.tsv") %>% 
+    filter(Marker=="narG") %>% 
+    select(Tax.DNA.200 = Confident_Taxonomy, Abund.DNA.200 = Abundance, Query)
+
+narG.RNA.200m = read_tsv("narG/marker_contig/RNA200m_marker_contig_map.tsv") %>% 
+    filter(Marker=="narG") %>% 
+    select(Tax.RNA.200 = Confident_Taxonomy, Abund.RNA.200 = Abundance, Query)
+```
+
+Manipulate the data into a single data frame
+```{r}
+narG.all = narG.DNA.10m %>% 
+# Combine the data frames will full_join to keep all the data
+  full_join(narG.RNA.10m, by = "Query") %>%
+  full_join(narG.DNA.100m, by = "Query") %>% 
+  full_join(narG.RNA.100m, by = "Query") %>%
+  full_join(narG.DNA.120m, by = "Query") %>% 
+  full_join(narG.RNA.120m, by = "Query") %>%
+  full_join(narG.DNA.135m, by = "Query") %>% 
+  full_join(narG.RNA.135m, by = "Query") %>%
+  full_join(narG.DNA.150m, by = "Query") %>% 
+  full_join(narG.RNA.150m, by = "Query") %>%
+  full_join(narG.DNA.165m, by = "Query") %>% 
+  full_join(narG.RNA.165m, by = "Query") %>% 
+  full_join(narG.DNA.200m, by = "Query") %>% 
+  full_join(narG.RNA.200m, by = "Query") %>% 
+# Create a taxonomy variable aggregating all taxonomy columns so as to fill in any NAs that might occur. !is.na means "is not NA", so the following says that the Taxonomy data should be taken from Tax.RNA.10 if that is not NA, or else take it from Tax.DNA.10 if that is not NA, or else Tax.RNA.200, etc. until if all are NA, give Taxonomy of "unclassified"
+  mutate(Taxonomy = ifelse(!is.na(Tax.RNA.10), Tax.RNA.10,
+                    ifelse(!is.na(Tax.DNA.10), Tax.DNA.10,
+                    ifelse(!is.na(Tax.RNA.100), Tax.RNA.100,
+                    ifelse(!is.na(Tax.DNA.100), Tax.DNA.100,
+                    ifelse(!is.na(Tax.RNA.120), Tax.RNA.120,
+                    ifelse(!is.na(Tax.DNA.120), Tax.DNA.120,
+                    ifelse(!is.na(Tax.RNA.135), Tax.RNA.135,
+                    ifelse(!is.na(Tax.DNA.135), Tax.DNA.135,
+                    ifelse(!is.na(Tax.RNA.150), Tax.RNA.150,
+                    ifelse(!is.na(Tax.DNA.150), Tax.DNA.150,
+                    ifelse(!is.na(Tax.RNA.165), Tax.RNA.165,
+                    ifelse(!is.na(Tax.DNA.165), Tax.DNA.165,
+                    ifelse(!is.na(Tax.RNA.200), Tax.RNA.200,
+                    ifelse(!is.na(Tax.DNA.200), Tax.DNA.200,
+                           "unclassified"))))))))))))))) %>% 
+# Get rid of the old Tax variables
+  select(-starts_with("Tax.")) %>% 
+# Gather all the abundance data into 1 column 
+  gather("Key", "Abundance", starts_with("Abund")) %>% 
+# Turn the Key into Depth and RNA/DNA variables. We can easily do this because we specifically named these variables with period separation when we loaded in the original data
+  separate(Key, c("Key","Type","Depth_m"), by = ".") %>% 
+# Remove Key variable now that it only contains "Abund". This also serves to reorder the columns so that the very long Query is at the end.
+  select(Depth_m, Type, Abundance, Taxonomy, Query) %>% 
+# Make sure R knows depth is numerical since it came from a character variable
+  mutate(Depth_m = as.numeric(Depth_m)) %>% 
+# Separate Taxonomy into columns so we can plot at different levels
+  separate(Taxonomy, into = c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), sep="; ")
+```
+
+The warning from the above is fine. It tells us that not all queries could be classified down to the species level so these cells are filled in with NA.
+
+Now, this was a lot of data manipulation and will be even longer with 14 tables. So we understand if you prefer to do it in Excel... But look how pretty!
+```{r}
+narG.all
+```
+
+## Example plots
+### How does the DNA abundance of your gene of interest differ with depth?
+```{r}
+narG.all %>% 
+# Filter the DNA data
+  filter(Type == "DNA") %>% 
+# Change NAs to "unclassified" at the level you want to plot. Here we will do Genus
+  mutate(Genus = ifelse(is.na(Phylum), "unclassified", Phylum)) %>% 
+  group_by(Depth_m) %>%
+  mutate(abund_sum=sum(Abundance, na.rm=TRUE)) %>% 
+
+  
+ggplot(aes(x = "narG", y = Depth_m)) +
+# Use the size aesthetic to show abundance
+  geom_point(aes(size = abund_sum)) +
+# Reverse the why axis so depth increases going down
+  scale_y_reverse(lim=c(200,10)) +
+  labs(title = "Abundance of the narG gene (DNA) at different depths",
+       x = "") +
+  theme_classic() +
+  scale_size_continuous(name="Abundance Total") +
+  geom_text(aes(label=abund_sum, hjust=1.5))
+  
+```
+
+### How does the RNA abundance of your gene of interest differ with depth? Is this similar to the DNA levels?
+```{r}
+narG.all %>% 
+# Change NAs to "unclassified" at the level you want to plot
+  mutate(Phylum = ifelse(is.na(Phylum), "unclassified", Phylum)) %>% 
+
+# Show both RNA and DNA using an x variable  
+ggplot(aes(x = Type, y = Depth_m)) +
+  geom_point(aes(size = Abundance)) +
+  scale_y_reverse(lim=c(200,10)) +
+  labs(title = "Abundance of the narG gene (DNA vs. RNA) at different depths",
+       x = "") +
+  theme_classic()
+```
+
+### What taxa are responsible for your gene of interest? Are they the same with depth? With DNA versus RNA?
+```{r fig.width=10}
+narG.all %>% 
+# Change NAs to "unclassified" at the level you want to plot
+  mutate(Phylum = ifelse(is.na(Phylum), "unclassified", Phylum)) %>% 
+  
+ggplot(aes(x = Phylum, y = Depth_m)) +
+# Use an ifelse statement to make 0 values into NAs so that they don't show up on the plot
+# Use position_dodge to keep points from overlapping
+  geom_point(aes(size = ifelse(Abundance == 0, NA, Abundance), color = Type), position = position_dodge(0.5)) +
+  scale_y_reverse(lim=c(200,10)) +
+  labs(title = "Abundance of phyla with narG (DNA vs. RNA) at different depths") +
+  theme_classic() +
+# Rename legend
+  scale_size_continuous(name = "Abundance") +  
+  theme(axis.text.x = element_text(angle = 45, hjust =1))
+```
+
+Or you could facet the data.
+```{r fig.width=10}
+narG.all %>% 
+# Change NAs to "unclassified" at the level you want to plot
+  mutate(Genus = ifelse(is.na(Phylum), "unclassified", Phylum)) %>% 
+  
+ggplot(aes(x = Genus, y = Depth_m, las=2)) +
+  geom_point(aes(size = ifelse(Abundance == 0, NA, Abundance))) +
+  scale_y_reverse(lim=c(200,10)) +
+  facet_wrap(~Type) +
+  labs(title = "Abundance of Phlya with narG (DNA vs. RNA) at different depths") +
+  theme_classic() +
+  scale_size_continuous(name = "Abundance") + 
+  theme(axis.text.x = element_text(angle = 45, hjust =1))
+```
+
+### How does the abundance of your gene of interest relate to nitrogen species in Saanich?
+
+Load in data from project 1 and pull out the geochemical metadata.
+```{r}
+load("mothur_phyloseq.RData")
+
+metadata = data.frame(mothur@sam_data)
+```
+
+Since we are looking at narG here, we will use methane (CH~4~) instead of a nitrogen species. First, we remake our abundance plot and save it as an object, "plot1"
+```{r}
+plot1 = narG.all %>% 
+# Change NAs to "unclassified" at the level you want to plot
+  mutate(Phylum = ifelse(is.na(Phylum), "unclassified", Phylum)) %>% 
+  
+ggplot(aes(x = Phylum, y = Depth_m)) +
+  geom_point(aes(size = ifelse(Abundance == 0, NA, Abundance), color = Type), position = position_dodge(0.5)) +
+  scale_y_reverse(lim=c(200,10)) +
+  labs(y = "") +
+  theme_classic() +
+  scale_size_continuous(name = "Abundance")+ 
+  theme(axis.text.x = element_text(angle = 45, hjust =1))
+plot1
+```
+
+Then, we make a plot for methane, "plot2".
+```{r}
+plot2 = metadata %>% 
+# Order the data by depth  
+  arrange(Depth_m) %>% 
+  
+ggplot(aes(x = NO2_uM, y = Depth_m)) +
+    geom_point() +
+    geom_path(aes(group = 1)) +
+    scale_y_reverse(lim=c(200,10)) +
+  theme_classic() +
+  labs(y = "Depth (m)",
+       x = "No2 (uM)")
+plot2
+
+plot3 = metadata %>% 
+# Order the data by depth  
+  arrange(Depth_m) %>% 
+  
+ggplot(aes(x = NO3_uM, y = Depth_m)) +
+    geom_point() +
+    geom_path(aes(group = 1)) +
+    scale_y_reverse(lim=c(200,10)) +
+  theme_classic() +
+  labs(y = "Depth (m)",
+       x = "No3 (uM)")
+plot3
+```
+
+Finally we use `cowplot` to create a composite figure. We can add panel labels (A, B) and change the relative widths of the plots. We will make the methane plot much skinnier than the abundance plot.
+```{r}
+plot_grid(plot3, plot2, plot1, labels=c("A", "B", "C"), rel_widths=c(1/4, 1/4, 2/4))
+```
+

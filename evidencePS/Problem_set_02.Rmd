@@ -4,7 +4,7 @@ author: "Student Name (Student ID)"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
 ---
-### Problem set_02 “Microbial Engines”
+### Problem set_02 Microbial Engines
 #### Learning objectives: 
 Discuss the role of microbial diversity and formation of coupled metabolism in driving global biogeochemical cycles.
 

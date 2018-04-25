@@ -1,0 +1,462 @@
+Query	Marker	Taxonomy	Confident_Taxonomy	Abundance	Likelihood	WTD
+scaffold00019	nosZ	SAR324; SAR324	SAR324; SAR324	2.60719	1.0	0.0
+scaffold00048	nosZ	Bacteria; Bacteroidetes; Bacteroidetes Order II. Incertae sedis; Rhodothermaceae; Rhodothermus; DSM	Bacteria; Bacteroidetes; Bacteroidetes Order II. Incertae sedis; Rhodothermaceae; Rhodothermus; DSM	2.99413	0.999148	0.0
+scaffold00053	nosZ	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter; sp.	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter	1.59248	0.994404	0.0
+scaffold00408	nosZ	SHBH1141; SHBH1141	SHBH1141; SHBH1141	184.226	1.0	0.0
+scaffold01142	nosZ	GAMMA; GAMMA	GAMMA; GAMMA	6.52234	1.0	0.0
+scaffold111923	nosZ	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Cellulophaga; DSM	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Cellulophaga	7.25891	0.501455	0.0
+scaffold124052	nosZ	SUP05; SUP05	SUP05; SUP05	121.96	1.0	0.0
+scaffold131367	nosZ	SUP05; SUP05	SUP05; SUP05	4.36548	1.0	0.0
+scaffold133910	nosZ	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter; sp.	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter	0	1.0	0.0
+scaffold154789	nosZ	SUP05; SUP05	SUP05; SUP05	129.304	1.0	0.0
+scaffold165599	nosZ	SAR324; SAR324	SAR324; SAR324	0	0.628998	0.0
+scaffold166174	nosZ	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Robiginitalea; biformata	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Robiginitalea	0.0923143	0.873539	0.0
+scaffold177032	nosZ	SAR324; SAR324	SAR324; SAR324	0.0963372	1.0	0.0
+scaffold18604	nosZ	SUP05; SUP05	SUP05; SUP05	111.65	1.0	0.0
+scaffold190021	nosZ	SAR324; SAR324	SAR324; SAR324	0.30218	1.0	0.0
+scaffold229366	nosZ	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter; sp.	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter	0	0.82896	0.0
+scaffold234150	nosZ	EPSILON; EPSILON	EPSILON; EPSILON	0.75212	1.0	0.0
+scaffold278184	nosZ	EPSILON; EPSILON	EPSILON; EPSILON	1.10193	1.0	0.0
+scaffold297785	nosZ	EPSILON; EPSILON	EPSILON; EPSILON	1.42729	1.0	0.0
+scaffold30664	nosZ	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Cellulophaga; DSM	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Cellulophaga	0.827918	0.999987	0.0
+scaffold306912	nosZ	SAR324; SAR324	SAR324; SAR324	0	1.0	0.0
+scaffold325171	nosZ	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	0.577361	0.711775	0.28125
+scaffold330079	nosZ	Bacteria; Bacteroidetes; Bacteroidetes Order II. Incertae sedis; Rhodothermaceae; Rhodothermus; DSM	Bacteria; Bacteroidetes; Bacteroidetes Order II. Incertae sedis; Rhodothermaceae; Rhodothermus; DSM	0.145844	0.4464	0.0
+scaffold331353	nosZ	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter; sp.	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter	1.16675	0.373111	0.0
+scaffold338805	nosZ	SAR324; SAR324	SAR324; SAR324	0	1.0	0.0
+scaffold402611	nosZ	ZA3312c; ZA3312c	ZA3312c; ZA3312c	3.40341	1.0	0.0
+scaffold428110	nosZ	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter; sp.	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter	0.086426	0.999818	0.0
+scaffold439199	nosZ	SUP05; SUP05	SUP05; SUP05	21.0015	1.0	0.0
+scaffold54847	nosZ	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Robiginitalea; biformata	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Robiginitalea	0.379165	0.744492	0.0
+scaffold55750	nosZ	Bacteria; Aquificae; Aquificae; Aquificales	Bacteria; Aquificae; Aquificae; Aquificales	0.938139	0.373501	0.0625
+scaffold60802	nosZ	ZA3312c; ZA3312c	ZA3312c; ZA3312c	0.0908174	0.955196	0.0
+scaffold73772	nosZ	ZA3312c; ZA3312c	ZA3312c; ZA3312c	0.628474	0.990982	0.0
+scaffold94486	nosZ	SUP05; SUP05	SUP05; SUP05	38.9403	1.0	0.0
+scaffold96737	nosZ	Bacteria; Spirochaetes; Spirochaetia; Leptospirales; Leptospiraceae; Leptospira; 1	Bacteria; Spirochaetes; Spirochaetia; Leptospirales; Leptospiraceae; Leptospira	0.127089	0.866121	0.0
+scaffold00061	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae	0	0.436432	0.0
+scaffold00076	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae	0.3999	0.351905	0.01562
+scaffold00104	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.185854	1.0	0.0
+scaffold00208	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.233282	0.552047	0.0
+scaffold00212	napA	Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales; Thiotrichaceae	Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales; Thiotrichaceae	168.312	0.99805	0.01562
+scaffold00241	napA	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	9.43426	1.0	0.0
+scaffold00398	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.19491	0.999936	0.0
+scaffold00624	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.492404	0.993448	0.0
+scaffold00695	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	5.42979	0.895724	0.20392
+scaffold00722	napA	Bacteria; Planctomycetes; Planctomycetia; Planctomycetales; Planctomycetaceae; Rhodopirellula	Bacteria; Planctomycetes; Planctomycetia; Planctomycetales; Planctomycetaceae	0.0835327	0.999995	0.01172
+scaffold00731	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	0.103634	0.452631	0.325
+scaffold00782	napA	Bacteria	Bacteria	1.39167	0.834516	0.39062
+scaffold00812	napA	Bacteria	Bacteria	0.706282	0.701742	0.4375
+scaffold00960	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.71403	0.0
+scaffold00970	napA	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	43.24	1.0	0.0
+scaffold01008	napA	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	9.93578	1.0	0.0
+scaffold01063	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	4.79674	0.985203	0.20392
+scaffold01305	napA	Bacteria	Bacteria	0.0481134	0.42693	0.28125
+scaffold01479	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	19.6233	0.972018	0.075
+scaffold01562	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0.446199	0.509564	0.075
+scaffold01594	napA	Bacteria; Planctomycetes; Planctomycetia; Planctomycetales; Planctomycetaceae; Rhodopirellula	Bacteria; Planctomycetes; Planctomycetia; Planctomycetales; Planctomycetaceae	0.0886763	1.0	0.01172
+scaffold01734	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0.973892	0.825182	0.075
+scaffold01819	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.701898	1.0	0.0
+scaffold02319	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	116.967	0.926484	0.075
+scaffold02523	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.185854	1.0	0.0
+scaffold02848	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	86.4517	0.322662	0.20392
+scaffold02938	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0.553173	0.419577	0.21875
+scaffold03055	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	2.87253	0.350312	0.21875
+scaffold03067	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	4.26908	0.392448	0.325
+scaffold03162	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.44417	0.569936	0.0
+scaffold03396	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae	0	0.611249	0.0
+scaffold03473	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; unclassified Clostridiales; unclassified Clostridiales 	Bacteria; Firmicutes; Clostridia; Clostridiales; unclassified Clostridiales	0.0903939	0.582973	0.0
+scaffold03491	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	2.21992	0.940041	0.20392
+scaffold03607	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Archangiaceae; Cystobacter; Cystobacter fuscus	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae	0.6634	0.583281	0.0
+scaffold03617	napA	Bacteria; Planctomycetes; Planctomycetia; Planctomycetales; Planctomycetaceae; Rhodopirellula; Rhodopirellula maiorica	Bacteria; Planctomycetes; Planctomycetia; Planctomycetales; Planctomycetaceae	0.192951	0.299803	0.0
+scaffold03818	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	3.12238	0.755785	0.0
+scaffold04145	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.990682	0.0
+scaffold04176	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.274709	0.7054	0.0
+scaffold04618	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	19.672	0.835209	0.0
+scaffold04825	napA	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	0.378243	1.0	0.0
+scaffold05233	napA	Bacteria	Bacteria	1.06906	0.834516	0.39062
+scaffold05253	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0.375414	0.699333	0.075
+scaffold06154	napA	Bacteria; Planctomycetes; Planctomycetia; Planctomycetales; Planctomycetaceae; Rhodopirellula	Bacteria; Planctomycetes; Planctomycetia; Planctomycetales; Planctomycetaceae	0.229183	0.225199	0.01172
+scaffold06192	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; unclassified Clostridiales; unclassified Clostridiales 	Bacteria; Firmicutes; Clostridia; Clostridiales; unclassified Clostridiales	52.0952	0.414317	0.0
+scaffold06365	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0.126756	0.956263	0.075
+scaffold06540	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	59.5285	0.326206	0.21875
+scaffold06777	napA	Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Flammeovirgaceae; Flammeovirga	Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Flammeovirgaceae	0.586596	0.752998	0.0
+scaffold07404	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	2.5476	0.872019	0.075
+scaffold07433	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0.778537	0.64805	0.075
+scaffold07554	napA	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Caldimicrobium	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae	0.151635	0.891668	0.0
+scaffold08125	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	2.53919	1.0	0.0
+scaffold08247	napA	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Caldimicrobium	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae	7.20237	0.969183	0.0
+scaffold08528	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0.0348573	0.977208	0.075
+scaffold08631	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	3.50025	0.964921	0.0
+scaffold09199	napA	Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Flammeovirgaceae; Flammeovirga	Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Flammeovirgaceae	0.0822621	0.462699	0.0
+scaffold09735	napA	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Caldimicrobium	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae	0.850208	0.635282	0.0
+scaffold09811	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	1.46522	0.511575	0.0
+scaffold09832	napA	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Caldimicrobium	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae	0.525225	0.481052	0.0
+scaffold100032	napA	Bacteria	Bacteria	0	0.482408	0.28125
+scaffold100780	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	7.65476	0.741062	0.075
+scaffold101207	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; unclassified Clostridiales; unclassified Clostridiales 	Bacteria; Firmicutes; Clostridia; Clostridiales; unclassified Clostridiales	0	0.864209	0.0
+scaffold103222	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	1.0	0.0
+scaffold10389	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Archangiaceae; Cystobacter; Cystobacter fuscus	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae	1.09066	0.319489	0.0
+scaffold10393	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.612289	0.765915	0.0
+scaffold104557	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	0.268819	0.345448	0.16667
+scaffold10721	napA	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	11.4864	1.0	0.0
+scaffold108104	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.999511	0.0
+scaffold10953	napA	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Caldimicrobium	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae	21.2214	0.58477	0.0
+scaffold11122	napA	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Caldimicrobium	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae	2.28973	0.416812	0.0
+scaffold114188	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.999703	0.0
+scaffold116552	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0.072419	0.76263	0.21875
+scaffold118630	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	0.659733	0.426988	0.16667
+scaffold118961	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.99787	0.0
+scaffold119108	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.441363	0.607154	0.20392
+scaffold11952	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0.464282	0.992343	0.21875
+scaffold119741	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.910055	0.0
+scaffold119962	napA	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Caldimicrobium	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae	0.221847	0.929679	0.0
+scaffold121293	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Mucispirillum; Mucispirillum schaedleri	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0	0.220439	0.0
+scaffold12184	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	1.47552	0.49031	0.0
+scaffold12226	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.176731	0.867027	0.0
+scaffold122284	napA	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Caldimicrobium	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae	2.92	0.770559	0.0
+scaffold12486	napA	Bacteria	Bacteria	3.74787	0.459073	0.4375
+scaffold126209	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.0765082	0.965405	0.0
+scaffold12622	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0.207349	0.79957	0.21875
+scaffold128805	napA	Bacteria	Bacteria	0	0.300954	0.4375
+scaffold131771	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0.0788049	0.347188	0.075
+scaffold13215	napA	Bacteria	Bacteria	0.624348	0.410072	0.42188
+scaffold134273	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.159707	0.962423	0.0
+scaffold134394	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.798537	0.998371	0.0
+scaffold13796	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	6.72443	0.42976	0.0
+scaffold139729	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.628914	0.0
+scaffold14019	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	2.87692	0.566063	0.075
+scaffold143018	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.999985	0.0
+scaffold146364	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0	0.501148	0.20392
+scaffold14680	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Mucispirillum; Mucispirillum schaedleri	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0.381598	0.660262	0.0
+scaffold15480	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	1.07992	0.428185	0.16667
+scaffold158761	napA	Bacteria	Bacteria	0.268104	0.617791	0.39062
+scaffold161350	napA	Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Flammeovirgaceae; Flammeovirga	Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Flammeovirgaceae	0	0.488329	0.0
+scaffold163218	napA	Bacteria	Bacteria	0	0.346732	0.4375
+scaffold164163	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0.18302	0.653089	0.21875
+scaffold166120	napA	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Sporomusa; Sporomusa ovata	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae	0	0.308045	0.0
+scaffold17074	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.09147	0.623168	0.20392
+scaffold174298	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.999998	0.0
+scaffold176208	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.383589	0.997186	0.0
+scaffold179503	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0	0.400217	0.075
+scaffold181375	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Archangiaceae; Cystobacter; Cystobacter fuscus	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae	0.293044	0.418041	0.0
+scaffold18214	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	1.98379	0.572528	0.075
+scaffold18419	napA	Bacteria	Bacteria	0.154993	0.909768	0.39062
+scaffold18551	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.347611	0.993974	0.0
+scaffold18555	napA	unclassified sequences; metagenomes; ecological metagenomes	unclassified sequences; metagenomes; ecological metagenomes	0.356159	0.360175	0.0
+scaffold185612	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.378101	0.0
+scaffold187410	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.0500036	0.889656	0.0
+scaffold190107	napA	Bacteria	Bacteria	0.504844	0.37331	0.42188
+scaffold19080	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.543569	0.995143	0.0
+scaffold19350	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0.100807	0.203905	0.21875
+scaffold19694	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	1.69302	1.0	0.0
+scaffold200636	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; unclassified Clostridiales; unclassified Clostridiales 	Bacteria; Firmicutes; Clostridia; Clostridiales; unclassified Clostridiales	0	0.812346	0.0
+scaffold20186	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.716286	0.996886	0.0
+scaffold202062	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.779114	0.0
+scaffold20348	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0.577078	0.905402	0.075
+scaffold207360	napA	Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Flammeovirgaceae; unclassified Flammeovirgaceae	Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Flammeovirgaceae	0.320634	0.376111	0.0
+scaffold21064	napA	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Caldimicrobium	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae	0.718	0.324207	0.0
+scaffold212541	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0	0.831593	0.21875
+scaffold217763	napA	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Caldimicrobium	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae	0	0.713653	0.0
+scaffold219245	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0.110826	0.883593	0.21875
+scaffold22132	napA	Bacteria	Bacteria	0.207611	0.610368	0.39062
+scaffold22414	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0.220257	0.31989	0.21875
+scaffold23264	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.148841	0.28966	0.20392
+scaffold233523	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Archangiaceae; Cystobacter; Cystobacter fuscus	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae	0.578554	0.879302	0.0
+scaffold235385	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.465407	0.999793	0.0
+scaffold235509	napA	Bacteria; Proteobacteria; Alphaproteobacteria; Kiloniellales; Kiloniellaceae; Kiloniella	Bacteria; Proteobacteria; Alphaproteobacteria; Kiloniellales; Kiloniellaceae	2.38521	0.460099	0.0
+scaffold23600	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	3.21522	0.353876	0.075
+scaffold241188	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.864391	0.0
+scaffold241483	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfitobacterium	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae	0	0.400469	0.0
+scaffold242197	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	4.27149	0.235925	0.075
+scaffold242770	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	0.47461	0.223079	0.325
+scaffold24489	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.865318	1.0	0.0
+scaffold256517	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Archangiaceae; Cystobacter; Cystobacter fuscus	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae	0	0.213962	0.0
+scaffold25858	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	1.02209	0.894688	0.075
+scaffold261669	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	2.6174	0.977075	0.0
+scaffold265777	napA	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Caldimicrobium	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae	0.126135	0.754454	0.0
+scaffold266003	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Archangiaceae; Cystobacter; Cystobacter fuscus	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae	125.505	0.985951	0.0
+scaffold274130	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.919402	0.0
+scaffold274629	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.999999	0.0
+scaffold275405	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Archangiaceae; Cystobacter; Cystobacter fuscus	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae	3.34993	0.566449	0.0
+scaffold281482	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Archangiaceae; Cystobacter; Cystobacter fuscus	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae	0	0.702607	0.0
+scaffold284099	napA	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	0.131671	1.0	0.0
+scaffold290521	napA	Bacteria	Bacteria	1.80586	0.369128	0.28125
+scaffold29291	napA	Bacteria; Firmicutes; Negativicutes; Selenomonadales	Bacteria; Firmicutes; Negativicutes; Selenomonadales	1.35921	0.753103	0.09375
+scaffold29301	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.0801075	0.940827	0.0
+scaffold30209	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.191047	0.999853	0.0
+scaffold302715	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.834748	0.0
+scaffold305371	napA	Bacteria; Gemmatimonadetes; Gemmatimonadetes; Gemmatimonadales; Gemmatimonadaceae; Gemmatimonas	Bacteria; Gemmatimonadetes; Gemmatimonadetes; Gemmatimonadales; Gemmatimonadaceae	1.93435	0.752492	0.0
+scaffold30852	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.304771	0.995532	0.0
+scaffold31649	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.169481	0.286267	0.0
+scaffold31754	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	2.8323	0.520125	0.0
+scaffold318218	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.142383	0.852165	0.0
+scaffold319764	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	0.569533	0.295877	0.16667
+scaffold32719	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.564868	0.946807	0.20392
+scaffold335948	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Archangiaceae; Cystobacter; Cystobacter fuscus	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae	0.147379	0.621083	0.0
+scaffold33643	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	4.84764	0.528724	0.0
+scaffold337069	napA	Bacteria; Firmicutes; Negativicutes; Selenomonadales	Bacteria; Firmicutes; Negativicutes; Selenomonadales	0.443694	0.221416	0.09375
+scaffold337818	napA	Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Flammeovirgaceae; Flammeovirga	Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Flammeovirgaceae	0	0.677109	0.0
+scaffold351675	napA	Bacteria	Bacteria	0.760924	0.303691	0.15625
+scaffold35398	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0.0613183	0.605789	0.21875
+scaffold35585	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	2.30786	0.999866	0.0
+scaffold36072	napA	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Selenomonadaceae; Selenomonas; Selenomonas ruminantium; Selenomonas ruminantium subsp. lactilytica	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Selenomonadaceae	0.544081	0.434064	0.0
+scaffold366244	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.275688	0.0
+scaffold36817	napA	Bacteria	Bacteria	76.7582	0.563524	0.39062
+scaffold369508	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.426489	0.0
+scaffold38282	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.341356	1.0	0.0
+scaffold388071	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.545141	0.0
+scaffold390276	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.488407	0.997572	0.0
+scaffold392542	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0.653744	0.456486	0.21875
+scaffold39307	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	3.98847	0.816562	0.0
+scaffold39410	napA	unclassified sequences; metagenomes; ecological metagenomes	unclassified sequences; metagenomes; ecological metagenomes	1.72524	0.246884	0.0
+scaffold403048	napA	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Shimia	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	7.30487	0.94276	0.0
+scaffold409197	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0	0.231232	0.21875
+scaffold410404	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.672048	0.999993	0.0
+scaffold41474	napA	unclassified sequences; metagenomes; ecological metagenomes	unclassified sequences; metagenomes; ecological metagenomes	0	0.845081	0.0
+scaffold41774	napA	Bacteria	Bacteria	0.103711	0.47642	0.4375
+scaffold418158	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	0	0.452152	0.325
+scaffold429364	napA	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	0.43213	1.0	0.0
+scaffold435779	napA	Bacteria; Firmicutes; Negativicutes; Selenomonadales	Bacteria; Firmicutes; Negativicutes; Selenomonadales	2.21069	0.410055	0.09375
+scaffold46850	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.713188	0.581904	0.0
+scaffold46927	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.976815	1.0	0.0
+scaffold49333	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0.40912	0.393979	0.075
+scaffold49506	napA	Bacteria	Bacteria	0.195363	0.298748	0.39062
+scaffold49727	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	7.94175	0.587832	0.0
+scaffold55139	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0.169196	0.94809	0.075
+scaffold56340	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.0429479	0.983235	0.20392
+scaffold57732	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	0.437076	0.462496	0.16667
+scaffold57985	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0	0.421457	0.20392
+scaffold58776	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	0.310149	0.443895	0.325
+scaffold58819	napA	Bacteria	Bacteria	1.37352	0.374986	0.42188
+scaffold59449	napA	Bacteria	Bacteria	0.178546	0.362762	0.42188
+scaffold59883	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.403875	0.966809	0.0
+scaffold61692	napA	Bacteria; Proteobacteria; Deltaproteobacteria	Bacteria; Proteobacteria; Deltaproteobacteria	0.229525	0.89981	0.21875
+scaffold63767	napA	Bacteria	Bacteria	0.14095	0.672458	0.42188
+scaffold65771	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	0.28835	0.382985	0.16667
+scaffold65900	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.0481686	0.984294	0.20392
+scaffold67870	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.0491839	0.974492	0.0
+scaffold69089	napA	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Oceanithermus; Oceanithermus profundus	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae	0.0498257	0.739712	0.0
+scaffold69250	napA	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.0499441	0.568852	0.20392
+scaffold72016	napA	Bacteria	Bacteria	0.0514113	0.97608	0.28125
+scaffold73544	napA	Bacteria	Bacteria	0.20897	0.442433	0.39062
+scaffold75955	napA	Bacteria	Bacteria	1.01534	0.305419	0.39062
+scaffold76338	napA	Bacteria	Bacteria	0.160931	0.606423	0.28125
+scaffold76534	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	0.214849	0.393147	0.16667
+scaffold78667	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; unclassified Clostridiales; unclassified Clostridiales 	Bacteria; Firmicutes; Clostridia; Clostridiales; unclassified Clostridiales	0	0.373966	0.0
+scaffold79523	napA	Bacteria; Bacteroidetes	Bacteria; Bacteroidetes	1.37986	0.426685	0.16667
+scaffold79815	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0	0.999857	0.0
+scaffold80866	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Archangiaceae; Cystobacter; Cystobacter fuscus	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae	0.558551	0.993686	0.0
+scaffold82613	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.0567608	0.9999	0.0
+scaffold86714	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	4.82388	0.696578	0.0
+scaffold88617	napA	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Caldimicrobium	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae	6.44365	0.429972	0.0
+scaffold92382	napA	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae	0.184494	0.511991	0.075
+scaffold92423	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.122996	0.805507	0.0
+scaffold96769	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	1.01671	0.614571	0.0
+scaffold97061	napA	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Archangiaceae; Cystobacter; Cystobacter fuscus	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae	0.637375	0.62183	0.0
+scaffold97582	napA	Bacteria; Acidobacteria; unclassified Acidobacteria; Acidobacteria subdivision 22	Bacteria; Acidobacteria; unclassified Acidobacteria; Acidobacteria subdivision 22	0.320145	0.982041	0.0
+scaffold99400	napA	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae; Symbiobacterium; Symbiobacterium thermophilum	Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae	0.259278	0.960227	0.0
+scaffold09472	nirS	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae	129.031	0.724345	0.05
+scaffold11742	nirS	Bacteria	Bacteria	125.235	0.999997	0.1875
+scaffold117570	nirS	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria	127.395	0.556727	0.01562
+scaffold117575	nirS	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria	113.685	0.847539	0.01562
+scaffold168708	nirS	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	16.1012	0.983195	0.07129
+scaffold17480	nirS	Bacteria; Proteobacteria; Deltaproteobacteria; unclassified Deltaproteobacteria; unclassified Deltaproteobacteria 	Bacteria; Proteobacteria; Deltaproteobacteria; unclassified Deltaproteobacteria; unclassified Deltaproteobacteria 	0.793543	0.998965	0.0
+scaffold17567	nirS	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae	13.269	0.976011	0.05
+scaffold177647	nirS	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae	154.494	0.999972	0.05
+scaffold177772	nirS	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae	151.79	0.999978	0.05
+scaffold244562	nirS	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oleiphilaceae; Oleiphilus	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oleiphilaceae; Oleiphilus	25.1183	0.91823	0.0
+scaffold262073	nirS	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria	27.1711	0.705439	0.01562
+scaffold326367	nirS	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Aliiroseovarius	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Aliiroseovarius	158.197	0.813975	0.0
+scaffold333398	nirS	Bacteria; Chloroflexi; Anaerolineae; Anaerolineales; Anaerolineaceae; Bellilinea	Bacteria; Chloroflexi; Anaerolineae; Anaerolineales; Anaerolineaceae; Bellilinea	1.10148	0.568187	0.0
+scaffold403754	nirS	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales	4.16697	0.588998	0.04688
+scaffold00754	nirK	Bacteria; Proteobacteria	Bacteria; Proteobacteria	1.09699	0.993572	0.36875
+scaffold00882	nirK	Bacteria; Proteobacteria	Bacteria; Proteobacteria	1.02032	0.858102	0.36875
+scaffold00919	nirK	Bacteria; Proteobacteria; Betaproteobacteria	Bacteria; Proteobacteria; Betaproteobacteria	0.33919	0.999322	0.225
+scaffold01325	nirK	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Capnocytophaga	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Capnocytophaga	0.289676	0.438	0.01562
+scaffold01976	nirK	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Nitrosomonadaceae; Nitrosomonas	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Nitrosomonadaceae; Nitrosomonas	1.17516	1.0	0.00781
+scaffold02102	nirK	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.107185	0.928731	0.36875
+scaffold02192	nirK	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	33.7131	0.588143	0.0625
+scaffold02482	nirK	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.66604	0.974458	0.36875
+scaffold04635	nirK	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Nitrosococcus	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Nitrosococcus	13.512	1.0	0.0
+scaffold06902	nirK	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter	2.78668	0.994628	0.0
+scaffold08094	nirK	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Nitrosococcus	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Nitrosococcus	0.109956	1.0	0.0
+scaffold08358	nirK	Bacteria; Proteobacteria; Betaproteobacteria	Bacteria; Proteobacteria; Betaproteobacteria	8.32976	0.63942	0.26359
+scaffold08773	nirK	Bacteria; Proteobacteria	Bacteria; Proteobacteria	20.1114	0.956081	0.3365
+scaffold09025	nirK	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Nitrosococcus	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Nitrosococcus	4.10425	1.0	0.0
+scaffold101284	nirK	Bacteria; Proteobacteria	Bacteria; Proteobacteria	13.7052	0.418235	0.36875
+scaffold102290	nirK	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	1.45522	0.982237	0.0625
+scaffold10447	nirK	Bacteria; Proteobacteria	Bacteria; Proteobacteria	1.39213	0.911787	0.36875
+scaffold10634	nirK	Bacteria; Proteobacteria; Betaproteobacteria	Bacteria; Proteobacteria; Betaproteobacteria	0.318325	0.976914	0.225
+scaffold141328	nirK	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter	0.661465	0.950868	0.0
+scaffold145628	nirK	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella	0.25303	0.499036	0.01953
+scaffold16668	nirK	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales	4.67601	0.731961	0.10011
+scaffold17356	nirK	Bacteria; Proteobacteria; Betaproteobacteria	Bacteria; Proteobacteria; Betaproteobacteria	14.3877	0.401144	0.26359
+scaffold18721	nirK	Bacteria; Proteobacteria; Betaproteobacteria	Bacteria; Proteobacteria; Betaproteobacteria	1.17593	0.768131	0.225
+scaffold197261	nirK	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Kingella; Kingella oralis	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Kingella	0	0.250661	0.0
+scaffold19818	nirK	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales	7.28177	0.671608	0.1101
+scaffold20528	nirK	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Nitrosomonadaceae; Nitrosomonas	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Nitrosomonadaceae; Nitrosomonas	0.394102	0.996413	0.00781
+scaffold214019	nirK	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XVII. Incertae Sedis; Thermaerobacter	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XVII. Incertae Sedis	0	0.933105	0.01562
+scaffold231482	nirK	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella	0	0.99691	0.01953
+scaffold240520	nirK	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; unclassified Flavobacteriaceae	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; unclassified Flavobacteriaceae	0.117986	0.673742	0.0
+scaffold242212	nirK	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter	0.47461	0.999927	0.0
+scaffold249910	nirK	Bacteria; Spirochaetes; Spirochaetia; Leptospirales; Leptospiraceae; Turneriella; Turneriella parva	Bacteria; Spirochaetes; Spirochaetia; Leptospirales; Leptospiraceae; Turneriella	1.39203	0.788012	0.0
+scaffold251911	nirK	Bacteria; Proteobacteria; Betaproteobacteria	Bacteria; Proteobacteria; Betaproteobacteria	0.667678	0.888045	0.09375
+scaffold271369	nirK	Bacteria; Proteobacteria; Betaproteobacteria	Bacteria; Proteobacteria; Betaproteobacteria	0.127669	0.286144	0.26359
+scaffold271517	nirK	Bacteria; Proteobacteria; Betaproteobacteria	Bacteria; Proteobacteria; Betaproteobacteria	0.127669	0.342345	0.225
+scaffold276058	nirK	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Kangiella; Kangiella koreensis	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Kangiella	0	0.973201	0.0
+scaffold30213	nirK	Bacteria; Proteobacteria; Betaproteobacteria	Bacteria; Proteobacteria; Betaproteobacteria	0.32137	0.754365	0.225
+scaffold328753	nirK	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Nitrosomonadaceae; Nitrosomonas	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Nitrosomonadaceae; Nitrosomonas	0	0.488914	0.00781
+scaffold35056	nirK	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria	1.63119	0.387863	0.01432
+scaffold361066	nirK	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae	0	0.365247	0.02344
+scaffold366818	nirK	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella	0.0780725	0.624473	0.01953
+scaffold394076	nirK	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; unclassified Flavobacteriaceae	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; unclassified Flavobacteriaceae	0.0820372	0.6294	0.0
+scaffold406266	nirK	Bacteria; Proteobacteria; Betaproteobacteria	Bacteria; Proteobacteria; Betaproteobacteria	0.502028	0.29871	0.225
+scaffold410101	nirK	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales	0.252018	0.318714	0.13125
+scaffold422904	nirK	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales	3.08594	0.344398	0.13125
+scaffold423987	nirK	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	0	0.581354	0.0625
+scaffold43493	nirK	Bacteria; Proteobacteria; Betaproteobacteria	Bacteria; Proteobacteria; Betaproteobacteria	0.622926	0.996474	0.225
+scaffold45742	nirK	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Nitrosococcus	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Nitrosococcus	1.80698	0.559827	0.0
+scaffold48826	nirK	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	58.3633	0.471738	0.0625
+scaffold49082	nirK	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Nitrosococcus	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Nitrosococcus	0.698756	0.801912	0.0
+scaffold49924	nirK	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Nitrosococcus	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Nitrosococcus	1.3765	0.998186	0.0
+scaffold55899	nirK	Bacteria; Proteobacteria	Bacteria; Proteobacteria	13.4247	0.918068	0.3365
+scaffold59260	nirK	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	1.46988	0.924378	0.0625
+scaffold88230	nirK	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae	1.78483	0.901283	0.0625
+scaffold00082	narG	Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales; Rhodocyclaceae; Aromatoleum; Aromatoleum aromaticum	Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales; Rhodocyclaceae	3.07826	1.0	0.0
+scaffold00105	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	2.32852	1.0	0.0
+scaffold00412	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	7.94098	1.0	0.0
+scaffold00565	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	15.6697	1.0	0.0
+scaffold00580	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	1.18493	1.0	0.0
+scaffold00896	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	1.13279	1.0	0.0
+scaffold01061	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	1.80195	1.0	0.125
+scaffold01073	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	20.7493	1.0	0.0
+scaffold353586	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0	0.626578	0.0
+scaffold354692	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0	0.939718	0.0
+scaffold360625	narG	unclassified sequences; metagenomes; ecological metagenomes	unclassified sequences; metagenomes; ecological metagenomes	0.386057	0.538534	0.0
+scaffold36167	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0.0311595	0.999986	0.125
+scaffold378660	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	0.479122	0.905214	0.12891
+scaffold379675	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0	0.999998	0.0
+scaffold380402	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	0.160317	0.872023	0.0
+scaffold385695	narG	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Desulfuromonas	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae	0.3231	0.752105	0.0
+scaffold402429	narG	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; unclassified Burkholderiales; Burkholderiales Genera incertae sedis; Thiomonas	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; unclassified Burkholderiales	0.664079	0.704845	0.0
+scaffold40742	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0.713067	0.92841	0.0
+scaffold414641	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0	0.88864	0.125
+scaffold423411	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; sulfur-oxidizing symbionts; Calyptogena okutanii thioautotrophic gill symbiont	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; sulfur-oxidizing symbionts	0	0.885313	0.0
+scaffold42562	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	0.0701219	1.0	0.0
+scaffold429294	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	0.345704	0.505602	0.12891
+scaffold43320	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	1.01191	1.0	0.0
+scaffold433575	narG	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; unclassified Burkholderiales; Burkholderiales Genera incertae sedis; Thiomonas	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; unclassified Burkholderiales	0.610002	0.278472	0.0
+scaffold434378	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	0	0.999912	0.0
+scaffold438148	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	0.198127	0.999938	0.0
+scaffold49595	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	0.822054	1.0	0.0
+scaffold52613	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	0.551596	1.0	0.0
+scaffold52901	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	0.061588	1.0	0.0
+scaffold52908	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	0.410587	1.0	0.0
+scaffold54066	narG	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.125133	0.61317	0.09375
+scaffold58065	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	1.27415	0.999205	0.0
+scaffold68371	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0.197894	0.871859	0.0
+scaffold71685	narG	Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales; Rhodocyclaceae; Aromatoleum; Aromatoleum aromaticum	Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales; Rhodocyclaceae	0.973241	0.95673	0.0
+scaffold72557	narG	Bacteria; Actinobacteria; Actinobacteria; Micrococcales; Micrococcaceae; Kocuria	Bacteria; Actinobacteria; Actinobacteria; Micrococcales; Micrococcaceae	63.0563	0.21938	0.0
+scaffold74867	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	0.476105	0.942804	0.0
+scaffold76839	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0.26925	0.999977	0.125
+scaffold78576	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0.109383	0.999992	0.125
+scaffold82296	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0.0566078	0.999969	0.125
+scaffold93152	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0	1.0	0.125
+scaffold94511	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0	0.999993	0.125
+scaffold95499	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	0.72419	0.99995	0.0
+scaffold01150	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; candidate division NC10; Candidatus Methylomirabilis	Bacteria; unclassified Bacteria; Bacteria candidate phyla; candidate division NC10; Candidatus Methylomirabilis	1.40176	0.999203	0.0
+scaffold01544	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	3.81111	1.0	0.0
+scaffold01667	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0.232302	1.0	0.125
+scaffold01685	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	1.95411	1.0	0.0
+scaffold01913	narG	Bacteria; Proteobacteria; Gammaproteobacteria	Bacteria; Proteobacteria; Gammaproteobacteria	0.712448	0.818451	0.11178
+scaffold02018	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	0.9136	0.998424	0.0
+scaffold02032	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	2.0093	1.0	0.0
+scaffold04903	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	2.64292	1.0	0.0
+scaffold05942	narG	Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales; Rhodocyclaceae; Aromatoleum; Aromatoleum aromaticum	Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales; Rhodocyclaceae	0.802453	0.999799	0.0
+scaffold06249	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	3.14408	1.0	0.0
+scaffold06251	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	2.24577	1.0	0.0
+scaffold08474	narG	Bacteria; Chlorobi; unclassified Chlorobi	Bacteria; Chlorobi; unclassified Chlorobi	15.5003	0.564715	0.0
+scaffold09908	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	5.66189	0.999714	0.12891
+scaffold106883	narG	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.886428	0.998498	0.09375
+scaffold11219	narG	Bacteria; Actinobacteria; Actinobacteria; Micrococcales; Micrococcaceae; Kocuria	Bacteria; Actinobacteria; Actinobacteria; Micrococcales; Micrococcaceae	59.8661	0.402117	0.0
+scaffold12108	narG	Bacteria; Chlorobi; unclassified Chlorobi	Bacteria; Chlorobi; unclassified Chlorobi	29.2074	0.799765	0.0
+scaffold129459	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0.0779277	1.0	0.125
+scaffold13959	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	0.95425	1.0	0.0
+scaffold14107	narG	Bacteria; Chlorobi; unclassified Chlorobi	Bacteria; Chlorobi; unclassified Chlorobi	17.0435	1.0	0.0
+scaffold14128	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0.524414	0.99998	0.125
+scaffold143842	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; sulfur-oxidizing symbionts; Calyptogena okutanii thioautotrophic gill symbiont	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; sulfur-oxidizing symbionts	0.167343	0.584714	0.0
+scaffold145694	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0.421717	1.0	0.0
+scaffold147071	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0	1.0	0.0
+scaffold149434	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0.343583	0.444755	0.0
+scaffold15745	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	7.04107	1.0	0.0
+scaffold157777	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0.0891784	0.999998	0.125
+scaffold162729	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	0.181831	0.70108	0.0
+scaffold166700	narG	Bacteria	Bacteria	0.277553	0.251236	0.35744
+scaffold170212	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; sulfur-oxidizing symbionts; Calyptogena okutanii thioautotrophic gill symbiont	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; sulfur-oxidizing symbionts	0.937568	0.980212	0.0
+scaffold174517	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	0.190923	0.999523	0.0
+scaffold174586	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	0.477307	0.999584	0.0
+scaffold188210	narG	Bacteria	Bacteria	1.20295	0.253541	0.16797
+scaffold19502	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	3.02166	1.0	0.0
+scaffold19782	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	6.62993	0.885147	0.0
+scaffold198158	narG	unclassified sequences; metagenomes; ecological metagenomes	unclassified sequences; metagenomes; ecological metagenomes	0.518556	0.499381	0.0
+scaffold205023	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0	0.999869	0.0
+scaffold208195	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	0.535753	0.488604	0.0
+scaffold220779	narG	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus	0	0.996885	0.0
+scaffold223102	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	0	0.849919	0.0
+scaffold225495	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0.451645	1.0	0.0
+scaffold23150	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0.128607	0.999991	0.125
+scaffold235435	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	268.598	0.997183	0.12891
+scaffold23828	narG	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales	1.65103	0.998663	0.0625
+scaffold245762	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	0.1795	0.949048	0.0
+scaffold247249	narG	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	Bacteria; Candidatus Omnitrophica; unclassified Candidatus Omnitrophica	8.88064	0.998595	0.0
+scaffold250469	narG	Archaea; Euryarchaeota; Halobacteria	Archaea; Euryarchaeota; Halobacteria	0.605231	0.999985	0.125
+scaffold253926	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Acetothermia; Candidatus Acetothermum	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Acetothermia; Candidatus Acetothermum	0	0.985547	0.06641
+scaffold259126	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	0	0.987439	0.12891
+scaffold259586	narG	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; unclassified Burkholderiales; Burkholderiales Genera incertae sedis; Thiomonas	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; unclassified Burkholderiales	0.557562	0.834182	0.0
+scaffold27558	narG	Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales; Rhodocyclaceae; Aromatoleum; Aromatoleum aromaticum	Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales; Rhodocyclaceae	0.854342	1.0	0.0
+scaffold278009	narG	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales	0.194458	0.659808	0.0625
+scaffold279283	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0	0.99987	0.0
+scaffold299845	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Acetothermia; Candidatus Acetothermum	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Acetothermia; Candidatus Acetothermum	0	0.999939	0.06641
+scaffold30471	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0.0549418	0.98614	0.0
+scaffold315980	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Acetothermia; Candidatus Acetothermum	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Acetothermia; Candidatus Acetothermum	0.707122	1.0	0.06641
+scaffold326953	narG	unclassified sequences; metagenomes; ecological metagenomes	unclassified sequences; metagenomes; ecological metagenomes	0.434514	0.911023	0.0
+scaffold338588	narG	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	Bacteria; unclassified Bacteria; Bacteria candidate phyla; Candidatus Saccharibacteria; unclassified Saccharibacteria	1.18736	0.709757	0.0
+scaffold344169	narG	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	Bacteria; Proteobacteria; Alphaproteobacteria; Pelagibacterales; environmental samples	0	0.94875	0.0
+scaffold347734	narG	Bacteria; Chlorobi; unclassified Chlorobi	Bacteria; Chlorobi; unclassified Chlorobi	0.90654	0.981376	0.0
+scaffold00138	norB	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Competibacteraceae; Candidatus Competibacter; Candidatus Competibacter denitrificans	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Competibacteraceae; Candidatus Competibacter	22.1328	0.867286	0.0
+scaffold01208	norB	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; unclassified Gammaproteobacteria 	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; unclassified Gammaproteobacteria 	0.897142	1.0	0.0
+scaffold01690	norB	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; unclassified Gammaproteobacteria 	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; unclassified Gammaproteobacteria 	0.304701	0.999996	0.0
+scaffold104899	norB	Bacteria	Bacteria	3.26466	0.996948	0.125
+scaffold109259	norB	Bacteria	Bacteria	0.207593	0.372482	0.125
+scaffold115619	norB	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; unclassified Gammaproteobacteria 	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; unclassified Gammaproteobacteria 	0.144093	0.644277	0.0
+scaffold152401	norB	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.173926	0.796072	0.15625
+scaffold15788	norB	Bacteria; Proteobacteria	Bacteria; Proteobacteria	0.444062	0.999073	0.23793
+scaffold163473	norB	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; unclassified Gammaproteobacteria 	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; unclassified Gammaproteobacteria 	0.821798	0.390221	0.0
+scaffold196071	norB	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; unclassified Gammaproteobacteria 	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; unclassified Gammaproteobacteria 	0	0.998675	0.0
+scaffold209933	norB	Bacteria; unclassified Bacteria; Bacteria candidate phyla; candidate division NC10; Candidatus Methylomirabilis	Bacteria; unclassified Bacteria; Bacteria candidate phyla; candidate division NC10; Candidatus Methylomirabilis	2.154	0.624902	0.0
+scaffold278248	norB	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae	216.108	0.399746	0.0
+scaffold336736	norB	Bacteria	Bacteria	0.591592	0.983072	0.125
+scaffold388004	norB	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales	0	0.464686	0.05921
+scaffold42558	norB	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Gallionellaceae; Gallionella; Gallionella capsiferriformans	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Gallionellaceae; Gallionella	5.64481	0.834445	0.0
+scaffold430167	norB	Bacteria; unclassified Bacteria; Bacteria candidate phyla; candidate division NC10; Candidatus Methylomirabilis	Bacteria; unclassified Bacteria; Bacteria candidate phyla; candidate division NC10; Candidatus Methylomirabilis	0.345704	0.487078	0.0
+scaffold431841	norB	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Endozoicomonaceae; Endozoicomonas	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Endozoicomonaceae; Endozoicomonas	0	0.39995	0.0
+scaffold439504	norB	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thiocapsa	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thiocapsa	3.95078	0.571754	0.0
+scaffold55835	norB	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Chromobacteriaceae	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Chromobacteriaceae	172.537	0.989937	0.05729
+scaffold55848	norB	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Chromobacteriaceae	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Chromobacteriaceae	89.7473	0.986739	0.05729
+scaffold77092	norB	Bacteria; Proteobacteria	Bacteria; Proteobacteria	2.24052	0.968175	0.15625
+scaffold93700	norB	Bacteria	Bacteria	0.559212	0.562268	0.125
+scaffold94369	norB	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; unclassified Gammaproteobacteria 	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; unclassified Gammaproteobacteria 	0.312058	0.340225	0.0
+scaffold00059	norC	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Aequorivita	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Aequorivita	0	0.837626	0.0
+scaffold00138	norC	Bacteria; Proteobacteria; Gammaproteobacteria	Bacteria; Proteobacteria; Gammaproteobacteria	0	0.364253	0.07118
+scaffold00798	norC	Bacteria; Chloroflexi; Ardenticatenia; Ardenticatenales; Ardenticatenaceae; Ardenticatena	Bacteria; Chloroflexi; Ardenticatenia; Ardenticatenales; Ardenticatenaceae; Ardenticatena	1.00426	0.996305	0.0
+scaffold01208	norC	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales	0	0.811961	0.06473
+scaffold01690	norC	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales	0	0.471107	0.06473
+scaffold100398	norC	Bacteria; Proteobacteria; Gammaproteobacteria	Bacteria; Proteobacteria; Gammaproteobacteria	320.738	0.987262	0.03906
+scaffold22771	norC	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales	6.00043	0.680023	0.06473
+scaffold282718	norC	Bacteria; Chloroflexi; Ardenticatenia; Ardenticatenales; Ardenticatenaceae; Ardenticatena	Bacteria; Chloroflexi; Ardenticatenia; Ardenticatenales; Ardenticatenaceae; Ardenticatena	0	0.99422	0.0
+scaffold28534	norC	Bacteria; Proteobacteria; Gammaproteobacteria	Bacteria; Proteobacteria; Gammaproteobacteria	60.2942	0.986619	0.03906
+scaffold31941	norC	Bacteria; Chloroflexi; Ardenticatenia; Ardenticatenales; Ardenticatenaceae; Ardenticatena	Bacteria; Chloroflexi; Ardenticatenia; Ardenticatenales; Ardenticatenaceae; Ardenticatena	0.838923	0.946166	0.0
+scaffold64069	norC	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	Bacteria; Proteobacteria; Gammaproteobacteria; unclassified Gammaproteobacteria; Candidatus Thioglobus; environmental samples	4.40772	1.0	0.0
+scaffold72772	norC	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales	6.32638	0.653642	0.06473
+scaffold77704	norC	Bacteria; Chloroflexi; Ardenticatenia; Ardenticatenales; Ardenticatenaceae; Ardenticatena	Bacteria; Chloroflexi; Ardenticatenia; Ardenticatenales; Ardenticatenaceae; Ardenticatena	1.68447	0.996644	0.0
+scaffold91553	norC	Bacteria; Chloroflexi; Ardenticatenia; Ardenticatenales; Ardenticatenaceae; Ardenticatena	Bacteria; Chloroflexi; Ardenticatenia; Ardenticatenales; Ardenticatenaceae; Ardenticatena	0.122102	0.655771	0.0
