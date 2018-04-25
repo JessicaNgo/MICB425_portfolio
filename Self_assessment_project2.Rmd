@@ -1,0 +1,51 @@
+---
+title: "Project self-assessment of contributions"
+subtitle: "2018 Term 2 - MICB425"
+output: html_document
+---
+To facilitate group assessment, please indicate your contributions to the following aspects of your final group reports. You should provide short statements under the headers relevant to your work. For example, you could specify that you "wrote the first draft", "wrote the code to accomplish X figure or result", "troubleshot code", "interpreted results", etc.
+
+Include **separate** completed versions of this document for Project 1 **and** Project 2 in your portfolio repo; they do not need to be incorporated into the final knit portfolio html.
+
+## Abstract
+### Writing
+
+### Editing
+
+
+## Introduction
+### Literature research
+
+### Writing
+
+### Editing
+
+
+## Methods
+### Writing
+I helped clarify methods, and got answers to questions to help my team member that was writing it
+### Editing
+I edited this briefly
+
+## Results
+### Analysis 
+I helped in discussion of the figures and what they meant
+
+### Figures
+I debugged/generated the code for most of the figures, and tried to edit them further for clarity, and make them more presentable
+
+I also ran the pipelines for our iTOL phylogenetic trees, and debugged when they did not come out as expected, and wrote a script to help parse the data given to us to replace it
+
+### Writing
+I helped write the results section
+
+### Editing
+I edited this section for flow
+
+## Discussion
+### Literature research
+
+### Writing
+
+### Editing
+
