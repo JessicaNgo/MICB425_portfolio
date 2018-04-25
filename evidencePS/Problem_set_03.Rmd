@@ -1,25 +1,64 @@
 ---
 title: "Problem Set_03"
-author: "Student Name (Student ID)"
+author: "Jessica Ngo (31837131)"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
+bibliography: bibliography.bib
 ---
-### Problem set_03 “Metagenomics: Genomic Analysis of Microbial Communities”
+### Problem set_03 Metagenomics: Genomic Analysis of Microbial Communities
 #### Learning objectives: 
 Specific emphasis should be placed on the process used to find the answer. Be as comprehensive as possible e.g. provide URLs for web sources, literature citations, etc.  
 *(Reminders for how to format links, etc in RMarkdown are in the RMarkdown Cheat Sheets)*
 
 #### Specific Questions:
 * How many prokaryotic divisions have been described and how many have no cultured representatives (microbial dark matter)?
+
+    * divisions are based off of 16S rRNA genes into operational taxonomic units [@ward]
+    * 89 bacterial and 20 archaeal phyla are recognized by small subunit ribosomal RNA databases, but this could be much higher, up to 1500 bacterial
+        * many of these have no culture representatives [@solden]
   
 
 * How many metagenome sequencing projects are currently available in the public domain and what types of environments are they sourced from?
-  
+    * EBI metagenomics: 1555 projects
+        * looked at total number of projects
+        * https://www.ebi.ac.uk/metagenomics/projects 
+    * joint genome institute: 10378
+        * added up totals in metagenome statistics table on the home page
+        * https://img.jgi.doe.gov/cgi-bin/m/main.cgi
+    * there appears to be many different websites all hosting their own projects, only included ones that were found in top hits on google. There doesn't seem to be one site that keeps track of all projects, and it is likely that some of these projects are duplicated between different sites
+    * there are many different environments that the metagenome sequencing projects are sourced from, as submissions for these sites seem to be open, and any sort of environment may be sourced from. For example, from the joint genome institute, there are engineered environments (eg. bioreactor, solid waste, wastewater), environmental environments (eg, air, aquatic, terrestrial), and host-associated environments (eg. human, insecta)
+    
+* What types of on-line resources are available for warehousing and/or analyzing environmental sequence information (provide names, URLS and applications)? 
+    * a quick search on google instantly provides many options, to list off a few:
+         * MetaPathways - pipeline that helps construct pathway/genome databases 
+             * paper: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-202 
+             * available at: http://hallam.microbiology.ubc.ca/MetaPathways
+         * EBI Metagenomics - tool available under the tools heading that allows bulk download of data associated with a particular project, potentially useful for comparisons
+             * available at: https://www.ebi.ac.uk/metagenomics/ 
+         * large collection of tools at omictools site available here: https://omictools.com/metagenomics-category 
+             * this includes huge collection of community contributed tools, has a search engine for locating tools that a researcher may want for their data analysis
+             
+* What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis? 
+    * phylogenetic anchors are transferred vertically while functional gene anchors can be tranferred horizontally (through horizontal gene transfer). Additionally, phylogenetic anchors are usually single copy, and carry phylogenetic information which makes it possible for tree reconstruction. This is in contrast to functional anchors which are not useful for phylogeny (due to horizontal transfer) and are more useful for identifying functions.
+    * in metagenome analysis, depending on the type of analysis being conducted and the kind of question being asked, different anchors may be used. For example, for constructin a phylogeny, considering "who" is there, diversity, and maybe even predicting what evolution will result in, phylogenetic anchors are more useful. In a different analysis, where the question asked is more concerned with the function of a community of microbes, it is more useful to use functional gene anchors.
 
-* What types of on-line resources are available for warehousing and/or analyzing environmental sequence information (provide names, URLS and applications)?  
-
-* What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis?   
-
-* What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms?  
+* What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms?
+    * metagenome sequence binning: grouping contigs/scaffolds/genes into OTUs.
+    * two approaches for sequence binning:
+        1. composition based
+            * used shared features such as GC content, or markov models based on kmer frequences
+            * this doesn't need ref seqs so works well for unknown microbes
+            * however, it may be weak to misclasification errors
+        2. similarity based (comparing to reference sequences from known OTUs)
+            * this is rather simple approach
+            * however, weak to the fact that undiscovered microbes, or microbes with no reference sequence may be missed 
+            
+    * some risks: binning doesn't always resolve strains, may be an inaccurate view of diversity, and also result in missing less abundant or smaller sequences
+    * some opportunities: potential to reconstruct genetic and metabolic diversity accurately - draw biological conclusions from sequence data 
 
 * Is there an alternative to metagenomic shotgun sequencing that can be used to access the metabolic potential of uncultivated microorganisms? What are some risks and opportunities associated with this alternative?  
+
+    * single cell sequencing (inspired from co-op experience)
+        * this could result in identification of rare microbes that carry important boutique genes 
+        * however, this technique is weak to limited DNA, and technical difficulties in analysis of the huge amount of data that this would produce 
+        
